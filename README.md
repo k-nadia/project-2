@@ -16,8 +16,15 @@
 <br>
 Portfolio Project 2 - Code Institute Full Stack Development Diploma
 <br><br>
-Introduction...
-<br><br>
+Type Library is an interactive front-end site which serves the purpose of helping users improve their typing speed (WPM) and accuracy, using a unique approach to learning.
+
+Traditional online typing tests often rely on non-sensical paragraphs of randomly generated words which do not form sentences or hold any kind of meaning. This approach tests ones typing skills but can be a rather dull exercise for the user and does little to engage their mind with the actual content they are typing. 
+
+The 'Type Library' application aims to solve this problem by incorporating excerpts from well-known classic and cult novels, to make type practice more engaging and enriching. 
+
+Our approach transforms typing from an often monotonous practice into one that engages users with meaningful and beautifully written text, providing context and narrative that enhances their motivation and enjoyment. This approach not only helps improve typing speed and accuracy but also introduces users to valuable literature, potentially sparking interest in new books and authors. 
+
+Typing excerpts from well-crafted prose can aid in developing a deeper understanding of language, rhythm, and structure, making the practice not just a test of skill but an opportunity for literary appreciation and learning. 
 
 Deployed website can be be found here: [PP2](https://k-nadia.github.io/PP2/index.html)
 <br><br>
