@@ -26,7 +26,8 @@ Our approach transforms typing from an often monotonous practice into one that e
 <br><br>
 Typing excerpts from well-crafted prose can aid in developing a deeper understanding of language, rhythm, and structure, making the practice not just a test of skill but an opportunity for literary appreciation and learning. 
 <br><br>
-Deployed website can be be found here: [PP2](https://k-nadia.github.io/PP2/index.html)
+
+Deployed website can be be found here: [Type Library](https://k-nadia.github.io/project-2/index.html)
 <br><br>
 
 <p align="center">
