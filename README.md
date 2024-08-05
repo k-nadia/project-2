@@ -71,16 +71,38 @@ All fonts used throughout the application were sourced from [Google Fonts](https
 
 ### **User Stories**
 
-As a new site user:
+As a user:
+
+- I want to choose the duration of the typing test (30 seconds, 1 minute, etc.) so that I can customize my experience based on my available time or focus level.
+
+- I want the game to generate a random excerpt from a literary novel so that I can enjoy engaging content while practicing my typing skills.
+
+- I want to receive my results immediately after completing the typing test to gain instant feedback on my performance and track my progress.
+
+- I want to see my words per minute (WPM) score on the results page so that I can evaluate the speed of my typing.
+
+- I want to see my accuracy percentage on the results page to understand how well I typed the provided excerpt without errors.
+
+- I want to view the total number of words typed so that I can measure my productivity during the test.
+
+- I want to know the total number of errors made so that I can identify areas for improvement in my typing skills.
+
+- I want the ability to retry the test after viewing my results so that I can practice and improve my typing speed and accuracy.
+
+- I want to see the book title and the author of the excerpt I typed so that I can discover new literature and potentially find my next read.
 
 
 As a developer: 
+
+- I want to access a README file so that I can understand the scope and purpose of the project and locate essential information regarding the website
+- I want to access deployment information so I can follow step-by-step instructions on how to deploy the project
 
 
 ### **Wireframes**
 
 <br>
 
+![MobileWireframes](./assets/images/wireframes/wireframesMobile.png)
 <hr>
 
 ## **FEATURES**
