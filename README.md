@@ -75,7 +75,9 @@ Deployed website can be be found here: [PP2](https://k-nadia.github.io/PP2/index
 
 All fonts used throughout the application were sourced from [Google Fonts](https://fonts.google.com/).
 <br><br>
-
+![CormorantGaramondFontCredit](assets/images/typography/cormorant-garamond-font-credit.png)
+<br><br>
+![CormorantGaramondFontSample](assets/images/typography/cormorant-garamond-font-sample.png)
 <hr>
 
 ## **UX / UI**
