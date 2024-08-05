@@ -22,6 +22,10 @@ Introduction...
 Deployed website can be be found here: [PP2](https://k-nadia.github.io/PP2/index.html)
 <br><br>
 
+<p align="center">
+<img src ="assets/images/testing/am-i-responsive-placeholder-image.jpg" width="auto" height="auto" alt="AmIResponsive placeholder image showing the following viewports: desktop, laptop, tablet, mobile">
+</p>
+
 
 # Table of Contents
 
