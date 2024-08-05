@@ -1,131 +1,222 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **PP2** 
 
-Welcome k-nadia ,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+<br>
 
-## Gitpod Reminders
+![GitHub last commit](https://img.shields.io/github/last-commit/k-nadia/project-1?color=red&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/k-nadia/project-1?color=orange&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/k-nadia/project-1?color=yellow&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/k-nadia/project-1?color=green&style=for-the-badge)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+<hr>
 
-A blue button should appear to click: _Make Public_,
+# **Introduction**
+<br>
+Portfolio Project 2 - Code Institute Full Stack Development Diploma
+<br><br>
+Introduction...
+<br><br>
 
-Another blue button should appear to click: _Open Browser_.
+Deployed website can be be found here: [PP2](https://k-nadia.github.io/PP2/index.html)
+<br><br>
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
+# Table of Contents
 
-Another blue button should appear to click: _Open Browser_.
+- [Design](#design)
+	- [Colours](#colours)
+    - [Typography](#typography)
+- [UX / UI](#UX/UI)
+	- [User Stories](#user-stories)
+	- [Wireframes](#wireframes)
+- [Features](#features)
+	- [Navigation](#navigation)
+- [Testing](#testing)
+    - [Javascript Linter Tool](#javascript-linter-tool)
+    - [HTML W3C Validator](#html-w3c-validator)
+    - [CSS Jigsaw Validator](#css-jigsaw-validator)
+    - [Google Chrome Lighthouse Tool](#google-chrome-lighthouse-tool)
+    - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+	- [Languages Used](#languages-used)
+	- [Frameworks, Libraries & Programs Used ](frameworks-libraries-and-programs-used)
+- [Credits](#credits)
+	- [Content Sources](#content-sources)
+  - [Content Generators](#content-generators)
+  - [Image Sources](#images-sources)
+  - [Special Thanks](#special-thanks)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    
 
-To log into the Heroku toolbelt CLI:
+<br>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+<hr>
 
-### Connecting your Mongo database
+## **DESIGN**
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### **Colours**
 
-------
+### **Typography**
 
-## Release History
+All fonts used throughout the application were sourced from [Google Fonts](https://fonts.google.com/).
+<br><br>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<hr>
 
-**June 18, 2024,** Add Mongo back into template
+## **UX / UI**
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+### **User Stories**
 
-**May 28 2024:** Fix Mongo and Links installs
+As a new site user:
 
-**April 26 2024:** Update node version to 16
 
-**September 20 2023:** Update Python version to 3.9.17.
+As a developer: 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### **Wireframes**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<br>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<hr>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## **FEATURES**
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### **Navigation Menu**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<hr>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### **Features to Implement in the Future**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Additional features I would like to implement to this project would be...
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## **TESTING**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### **General Site Testing**
+| Page   | Section           | Page Element                                   | Action (if applicable)                         | Expected Outcome                                   | Result |
+|:------:|:-----------------:|:----------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------:|:------:|
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### **Troubleshooting**
 
 ---
 
-Happy coding!
+### **Issue 1**
+
+
+---
+### **Issue 2**
+
+
+---
+### **Issue 3**
+
+
+---
+### **Issue 4**
+
+
+---
+
+### **Javascript Linter Tool**
+
+Javascript Jshint Results:
+
+### **HTML W3C Validator**
+
+HTML W3C Validator Results:
+
+### **CSS Jigsaw Validator**
+
+CSS Jigsaw Validator Results:
+
+### **Google Chrome Lighthouse Tool**
+
+Google Chrome Dev Tools Lighthouse Testing Results:
+
+
+### **Unfixed Bugs**
+
+
+<hr>
+
+## **DEPLOYMENT**
+
+This website was deployed to GitHub Pages.
+
+### **Deployment Steps**
+
+Deploy this project using the following steps:
+1. Open the responsitory at [PP2 Github](https://github.com/k-nadia/PP2).
+2. Navigate to the 'Settings' tab.
+3. Within the 'Code & Automation' section, select 'Pages'
+4. Under the 'Branch' section, select 'main' from the drop-down menu.
+5. Click on 'save'.
+6. Reload the page after a few minutes and the live deployment link will be displayed at the top of the page.
+
+### **Forking Steps**
+
+Fork this project using the following steps:
+1. Open the responsitory at [PP2 Github](https://github.com/k-nadia/PP2).
+2. Select the 'Fork' button near the top of the page.
+3. After a few minutes the newly forked repository will be created under your GitHub account.
+
+### **Cloning Steps**
+
+Clone this project using the following steps:
+1. Open the responsitory at [PP2 Github](https://github.com/k-nadia/PP2).
+2. Select the green 'Code' button near the top of the page.
+3. Choose from one of the 3 cloning options: HTTPS, SSH, GitHub CLI.
+4. Click on the clipboard icon to copy the URL.
+5. Open a new GitPod terminal.
+6. Type 'git clone' and paste in the URL copied earlier.
+7. Press enter to complete the cloning process. 
+
+<hr>
+
+## **TECHNOLOGIES USED**
+
+### **Languages Used**
+- ![JavaScript](https://img.shields.io/badge/javascript-grey?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+-	![HTML5](https://img.shields.io/badge/html5-grey?style=for-the-badge&logo=html5&logoColor=E34F26)
+- ![CSS3](https://img.shields.io/badge/css3-grey?style=for-the-badge&logo=css3&logoColor=1572B6)
+
+ ## **Frameworks, Libraries & Programs Used**
+
+- [![Git](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com)- GitHub is a web-based platform for version control using Git, enabling collaborative software development and hosting of code repositories. GitHub connects to GitPod and Heroku. 
+
+- [![Gitpod](https://img.shields.io/badge/Gitpod-grey?logo=gitpod&logoColor=FFAE33)](https://gitpod.io) – Connected to GitHub, GitPod hosted the coding space, allowing the project to be built and then committed to the GitHub repository. Used for version control. 
+
+- [![Diffchecker](https://img.shields.io/badge/Diffchecker-grey?logo=diffchecker&logoColor=white)](https://www.diffchecker.com/text-compare/) - Diffchecker is a text comparison tool used to highlight the differences between two blocks of text, facilitating comparison and analysis. Update my code against old code for validation.
+
+- [![W3C CSS Validator](https://img.shields.io/badge/W3C_CSS_Validator-grey?logo=css3&logoColor=white)](https://jigsaw.w3.org/css-validator/) - The W3C CSS Validator is a tool used to check the validity and syntax of CSS code, ensuring compliance with web standards set by the World Wide Web Consortium (W3C). Import my CSS for validation.
+
+- [![W3C Markup Validator](https://img.shields.io/badge/W3C_Markup_Validator-grey?logo=html5&logoColor=white)](https://validator.w3.org/#validate_by_input) - The W3C Markup Validator is a tool used to check the validity and syntax of HTML code, ensuring compliance with web standards set by the World Wide Web Consortium (W3C). Import my html for validation.
+
+- [![Lighthouse](https://img.shields.io/badge/Lighthouse-grey?logo=google-chrome&logoColor=red)](https://developer.chrome.com/docs/lighthouse) - An open-source tool used for auditing web page quality, including performance, accessibility, SEO, and cross-browser testing. Check for validation.
+
+- [![Optimole](https://img.shields.io/badge/Optimole-grey?)](https://optimole.com/image-compressor/) - Optimole is an online image optimizer tool which reduces file size without losing image quality. This tool was used to optimize all images within the project for web.
+
+- ![Canva](https://img.shields.io/badge/Canva-grey.svg?style=for-the-badge&logo=Canva&logoColor=white) - A graphic design platform that provides online design and visual communication tools.
+
+## **CREDITS**
+
+### **Content Sources**
+
+
+### **Content Generators**
+-  [![Favicon.io](https://img.shields.io/badge/Favicon.io-grey?)](https://favicon.io/) - A favicon.ico icon tool used to generate or download favicon icons in all required sizes. Favicon.io was used to generate favicon.ico file from the Kennet logo JPEG image.
+
+- [![Coolors Color Palette](https://img.shields.io/badge/Coolors%20Color%20Palette-grey?)](https://coolors.co/) - Coolors.co is a online colour palette generator used to visualise and create colour schemes. In this project Coolors was used to pick colours from the Kennet logo and site photo and create a colour palette that reflected the Kennet Shopping ethos and target audience.
+
+- [![Google Fonts](https://img.shields.io/badge/Google_Fonts-grey?logo=google-fonts&logoColor=white)](https://fonts.google.com/) - Google Fonts is a library of free, open-source fonts available to enhance web design. Google Fonts was used to import all fonts used in the project.
+
+- [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-grey?)](https://fontawesome.com/) - Font Awesome is an icon library and toolkit. Font Awesome was used to source all icons used in this project.
+
+
+### **Image Credits**
+
+### **Special Thanks**
