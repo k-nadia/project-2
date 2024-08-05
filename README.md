@@ -165,7 +165,7 @@ Javascript Jshint Results:
 
 ### **HTML W3C Validator**
 
-HTML W3C Validator Results:
+No errors found within index.html file when passed through W3C Markup Validator.
 
 ### **CSS Jigsaw Validator**
 
