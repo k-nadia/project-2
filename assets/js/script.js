@@ -1,3 +1,5 @@
+const typingText = document.getElementsByClassName("typing-text");
+
 function loadExcerpt() {
 
 }
