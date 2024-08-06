@@ -21,3 +21,8 @@ body {
     padding: 35px;
     background-color: #f5f3c4;
 }
+
+.wrapper .content-box {
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+}
