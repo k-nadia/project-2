@@ -37,6 +37,14 @@ body {
     justify-content: space-between;
 }
 
+.content ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0.5em 0;
+}
+
+
 .btn {
     display: flex;
     justify-content: center;
