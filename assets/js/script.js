@@ -1,8 +1,10 @@
 const typingText = document.getElementsByClassName("typing-text");
 
-function loadExcerpt() {
-
+function loadRandomExcerpt() {
+    console.log(excerpts[1]);
 }
+
+loadRandomExcerpt();
 
 function startTimer() {
 
@@ -19,3 +21,4 @@ function calculateWPM() {
 function resetGame() {
     
 }
+
