@@ -32,6 +32,15 @@ body {
     overflow-y: auto;
 }
 
+.content-box .content {
+    display: flex;
+}
+
+.content-box .result-details {
+    display: flex;
+}
+
+
 .typing-text p {
     text-align: justify;
     font-size: 19px;
