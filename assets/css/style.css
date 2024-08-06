@@ -22,6 +22,19 @@ body {
     background-color: #f5f3c4;
 }
 
+.timer-box {
+    display: flex;
+}
+
+.timer-box ul {
+    list-style: none;
+}
+
+.timer-details li {
+    display: inline-block;
+    margin: 0.5em 0;
+}
+
 .wrapper .content-box {
     padding: 15px 25px;
     border: 1px solid #ccc;
