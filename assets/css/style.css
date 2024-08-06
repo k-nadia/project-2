@@ -32,7 +32,7 @@ body {
 
 .timer-details li {
     display: inline-block;
-    margin: 0.5em 0;
+    margin: 0.5em 0.3em 0.5em 0;
 }
 
 .wrapper .content-box {
