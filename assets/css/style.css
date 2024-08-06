@@ -27,6 +27,11 @@ body {
     border: 1px solid #ccc;
 }
 
+.content-box .typing-text {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
 .typing-text p {
     text-align: justify;
     font-size: 19px;
