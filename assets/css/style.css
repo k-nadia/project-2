@@ -37,8 +37,10 @@ body {
     justify-content: space-between;
 }
 
-.content-box .result-details {
+.btn {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .typing-text::-webkit-scrollbar {
