@@ -13,5 +13,11 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.wrapper {
+    width: 770px;
+    padding: 35px;
     background-color: #f5f3c4;
 }
