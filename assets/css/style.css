@@ -34,10 +34,15 @@ body {
 
 .content-box .content {
     display: flex;
+    justify-content: space-between;
 }
 
 .content-box .result-details {
     display: flex;
+}
+
+.typing-text::-webkit-scrollbar {
+    width: 0;
 }
 
 
