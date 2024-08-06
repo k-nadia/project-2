@@ -16,7 +16,8 @@ const typingText = document.getElementsByClassName("typing-text");
 function loadRandomExcerpt() {
     //Generate pseudo random integer to allow us select a book excerpt at random
     let randomIndex = Math.floor(Math.random() * excerpts.length);
-    console.log(excerpts[randomIndex]);
+    excerpts[randomIndex].split("").forEach(span => {
+    });
 }
 
 loadRandomExcerpt();
