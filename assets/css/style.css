@@ -29,4 +29,6 @@ body {
 
 .typing-text p {
     text-align: justify;
+    font-size: 19px;
+    letter-spacing: 1px;
 }
