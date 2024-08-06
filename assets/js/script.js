@@ -17,6 +17,8 @@ function loadRandomExcerpt() {
     //Generate pseudo random integer to allow us select a book excerpt at random
     let randomIndex = Math.floor(Math.random() * excerpts.length);
     excerpts[randomIndex].split("").forEach(span => {
+        let spanContent = `<span>${span}</span>`;
+        typingText.innerHTML = spanContent;
     });
 }
 
