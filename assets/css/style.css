@@ -68,6 +68,13 @@ body {
     width: 0;
 }
 
+.typing-input {
+    display: flex;
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 19px;
+}
+
 .typing-text p {
     text-align: justify;
     font-size: 19px;
