@@ -45,9 +45,14 @@ body {
     width: 0;
 }
 
-
 .typing-text p {
     text-align: justify;
     font-size: 19px;
     letter-spacing: 1px;
+}
+
+.result-details li {
+    list-style: none;
+    padding: 10px 20px;
+    text-align: center;
 }
