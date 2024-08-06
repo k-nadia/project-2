@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "EB Garamond", serif;
     color:black;
+    font-size: 19px;
 }
 
 body {
@@ -62,6 +63,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    padding: 15px 30px;
 }
 
 .typing-text::-webkit-scrollbar {
