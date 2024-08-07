@@ -11,8 +11,10 @@ function loadRandomExcerpt() {
     });
 }
 
+//Sets the timer countdown increments of one second
 function startTimer(duration, display) {
-    let timer = duration, minutes, seconds;
+    let timer = duration,
+        minutes, seconds;
     const interval = setInterval(function () {
         minutes = parseInt(timer / 60, 10);
         seconds = parseInt(timer % 60, 10);
@@ -21,13 +23,20 @@ function startTimer(duration, display) {
         seconds = seconds < 10 ? "0" + seconds : seconds;
 
         display.textContent = minutes + ":" + seconds;
-
+        //Stop the countdown once the timer hits 00:00
         if (--timer < 0) {
             clearInterval(interval);
             display.textContent = "00:00";
         }
     }, 1000);
 }
+
+//Activates countdown to start when user presses a keyboard key
+document.addEventListener('keypress', function () {
+    const countdownTime = 60; // 60 seconds
+    const display = document.querySelector('#timer');
+    startTimer(countdownTime, display);
+});
 
 function checkTyping() {
 
