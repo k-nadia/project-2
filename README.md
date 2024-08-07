@@ -163,6 +163,8 @@ Below - console running correctly with expected outcome, once issue was resolved
 
 ### **Issue 2**
 
+After amending the loadRandomExcerpt code to trigger a paragraph from the excerpts variable to be displayed on the site (rather than just the console.log) the expected result was not produced and the excerpt text failed to appear on the browser. I determined error must likely be caused by an issue with retrieving elements from the "typing-text" class, because I had used document.getElementsByClass("typing-text") to fetch the correct elements from the DOM. Upon further Googling and investigation, I found a query on Stack Overflow which related to a user having similar problems when using '.getElementByClassName()'. Answers to the query suggested .getElementsByClassName() method returns a live HTML collection of elements, whereas .querySelector() returns a single static NodeList object. As my aim was to retrieve a single element from an array (instead of a collection) of elements, it made sense that the .getElementsByClassName() would not be producing the desired result. Upon replacing .getElementsByClassName() with .querySelector(), the code worked correctly without issue.
+
 ![Issue2Screenshot](./assets/images/testing/issue2.png)
 
 ### **Issue 3**
