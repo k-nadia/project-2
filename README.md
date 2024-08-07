@@ -143,11 +143,21 @@ Additional features I would like to implement to this project would be...
 
 ### **Issue 1**
 
+When developing the loadRandomExcerpt function, I noticed that upon running the function the console did not randomly select and log one of the text paragraphs within 'const = excerpt', which would be the anticipated result. The 'excerpt' variable was contained within a separate js file called excerpts.js.
+
+I realised that the error was likely caused because I was previewing the site on a temporary host rather than the fully deployed site and that this may cause the preview difficulty because the code was located in a separate file. In order to rectify this, I temporarily moved the 'excerpt' variable code inside of the script.js file. This fixed the issue and the console logged the correct content - a random text parapgrah selected from the excerpts variable.
+
+Below - console error message.
+
 ![Issue1Screenshot](./assets/images/testing/issue1-1.png)
 <br>
 
+Below - excerpts variable code, moved temporarily into script.js file.
+
 ![Issue1Screenshot](./assets/images/testing/issue1-2.png)
 <br>
+
+Below - console running correctly with expected outcome, once issue was resolved.
 
 ![Issue1Screenshot](./assets/images/testing/issue1-3.png)
 
