@@ -125,13 +125,10 @@ As a developer:
 
 ## **FEATURES**
 
-### **Navigation Menu**
-
-<hr>
-
 ### **Features to Implement in the Future**
 
 Additional features I would like to implement to this project would be...
+<hr>
 
 ## **TESTING**
 
@@ -142,24 +139,30 @@ Additional features I would like to implement to this project would be...
 
 ### **Troubleshooting**
 
----
+
 
 ### **Issue 1**
 
+![Issue1Screenshot](./assets/images/testing/issue1-1.png)
+<br>
 
----
+![Issue1Screenshot](./assets/images/testing/issue1-2.png)
+<br>
+
+![Issue1Screenshot](./assets/images/testing/issue1-3.png)
+
 ### **Issue 2**
 
 
----
+
 ### **Issue 3**
 
 
----
+
 ### **Issue 4**
 
 
----
+
 
 ### **Javascript Linter Tool**
 
@@ -241,6 +244,8 @@ Clone this project using the following steps:
 - [![Optimole](https://img.shields.io/badge/Optimole-grey?)](https://optimole.com/image-compressor/) - Optimole is an online image optimizer tool which reduces file size without losing image quality. This tool was used to optimize all images within the project for web.
 
 - ![Canva](https://img.shields.io/badge/Canva-grey.svg?style=for-the-badge&logo=Canva&logoColor=white) - A graphic design platform that provides online design and visual communication tools.
+
+<hr>
 
 ## **CREDITS**
 
