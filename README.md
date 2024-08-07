@@ -171,6 +171,10 @@ Below - original code that was not functioning correctly.
 
 ### **Issue 3**
 
+Once I tested my countdown timer I found that the timer countdown was resetting every time a key was pressed on the keyboard, causing the typing text timer countdown to continuously reset itself as the user typed. I fixed this by adding the 'once' option to the code and setting it to 'true'. This ensured that the event listener would only be triggered by the first key stroke from the user and not by subsequent key strokes.
+
+Below - browser screenshot taken when errors occurred.
+
 ![Issue3Screenshot](./assets/images/testing/issue3-1.png)
 
 Below - code not functioning correctly.
