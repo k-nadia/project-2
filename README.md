@@ -163,7 +163,7 @@ Below - console running correctly with expected outcome, once issue was resolved
 
 ### **Issue 2**
 
-
+![Issue2Screenshot](./assets/images/testing/issue2.png)
 
 ### **Issue 3**
 
