@@ -76,12 +76,13 @@ Deployed website can be be found here: [Type Library](https://k-nadia.github.io/
 
 All fonts used throughout the application were sourced from [Google Fonts](https://fonts.google.com/).
 <br>
+- EB Garamond
 - Used for: body
-- I chose to use this serif font throughout the website because it closely resembles the typefaces commonly used in printed books, evoking a sense of nostalgia and authenticity that aligns perfectly with the literary theme of the platform. By incorporating Cormorant Garamond, users can enjoy an immersive typing experience that mirrors the feel of reading classic literature, helping to create a deeper connection to the text they are typing. Its readability and classic aesthetics not only enhance the visual appeal of the website but also honor the literary tradition, making it a fitting choice for a site dedicated to showcasing the beauty of classic prose.
+- I chose to use this serif font throughout the website because it closely resembles the typefaces commonly used in printed books, evoking a sense of nostalgia and authenticity that aligns perfectly with the literary theme of the platform. By incorporating EB Garamond, users can enjoy an immersive typing experience that mirrors the feel of reading classic literature, helping to create a deeper connection to the text they are typing. Its readability and classic aesthetics not only enhance the visual appeal of the website but also honor the literary tradition, making it a fitting choice for a site dedicated to showcasing the beauty of classic prose.
 <br><br>
-![CormorantGaramondFontCredit](assets/images/typography/cormorant-garamond-font-credit.png)
+![EBGaramondFontCredit](assets/images/typography/eb-garamond.JPG)
 <br><br>
-![CormorantGaramondFontSample](assets/images/typography/cormorant-garamond-font-sample.png)
+![EBGaramondFontSample](assets/images/typography/eb-garamond-sample.JPG)
 <hr>
 
 ## **UX / UI**
