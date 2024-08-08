@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
+
+
 * {
     margin: 0; 
     padding: 0;
@@ -80,14 +82,18 @@ button {
     font-size: 19px;
 }
 
-.typing-text p {
-    text-align: justify;
-    font-size: 19px;
-    letter-spacing: 1px;
-}
-
 .result-details li {
     list-style: none;
     padding: 10px 20px;
     text-align: center;
+}
+
+.typing-text span {
+    display: inline;
+}
+
+.typing-text p {
+    text-align: justify;
+    font-size: 19px;
+    letter-spacing: 1px;
 }
