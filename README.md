@@ -133,8 +133,19 @@ Additional features I would like to implement to this project would be...
 ## **TESTING**
 
 ### **General Site Testing**
-| Page   | Section           | Page Element                                   | Action (if applicable)                         | Expected Outcome                                   | Result |
-|:------:|:-----------------:|:----------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------:|:------:|
+| Element                                   | Action (if applicable)                         | Expected Outcome                                   | Result |
+|:-----------------------------------------:|:----------------------------------------------:|:--------------------------------------------------:|:------:|
+| Content box                               | Load web page                                  | A randomly selected paragraph from the 'excerpts' array is displayed | Pass |
+| Content box                               | Click 'Try Again Button'                       | The randomly selected paragraph is replaced with a different randomly selected paragraph from the 'excerpts' array | Pass |
+| Content box                               | Scroll mouse while cursor is over the contents box | Text content scrolls to display the complete paragraph | Pass |
+| Countdown timer                           | Load web page                                  | Static timer displays 01:00                                | Pass |
+| Countdown timer                           | Press any key while cursor is activated within the input box | Timer begins to countdown from 01:00 to 00:00 in one second increments| Pass |
+| Countdown timer                           | N/A                                            | Countdown stops once 00:00 is reached              | Pass   |
+| Countdown timer                           | Click 'Try Again Button'                       | Countdown resets to 01:00                          | Pass   |
+| Text input box                            | Click on box                                   | Cursor appears and any text typed by user appears within the input box | Pass |
+| Text input box                            | Press any keys while cursor is activated within the input box  | All typed text appears within the input box   | Pass   |
+| Text input box                            | Click 'Try Again Button'                       | All typed text within the input box is cleared     | Pass   |
+| Try Again Button                          | Click 'Try Again Button'                       | Triggers the following actions: load new excerpt paragraph, reset timer to 01:00, clear text input box     | Pass   |
 
 
 ### **Troubleshooting**
