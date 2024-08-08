@@ -142,9 +142,12 @@ Additional features I would like to implement to this project would be...
 | Countdown timer                           | Press any key while cursor is activated within the input box | Timer begins to countdown from 01:00 to 00:00 in one second increments| Pass |
 | Countdown timer                           | N/A                                            | Countdown stops once 00:00 is reached              | Pass   |
 | Countdown timer                           | Click 'Try Again Button'                       | Countdown resets to 01:00                          | Pass   |
-| Text input box                            | Click on box                                   | Cursor appears and any text typed by user appears within the input box | Pass |
+| Text input box                            | Load web page                                  | Placeholder text is displayed within text input box| Pass |
+| Text input box                            | Click on input box                             | Placeholder text disappears and blinking cursor appears| Pass |
+| Text input box                            | Type in input box                              | All text user types is displayed within text input box| Pass |
 | Text input box                            | Press any keys while cursor is activated within the input box  | All typed text appears within the input box   | Pass   |
-| Text input box                            | Click 'Try Again Button'                       | All typed text within the input box is cleared     | Pass   |
+| Text input box                            | Click 'Try Again Button'                       | All typed text within the input box is cleared and the placeholder text reappears    | Pass   |
+| Text input box                            | Input box loses focus (empty)                  | Placeholder text reappears                              | Pass |
 | Try Again Button                          | Click 'Try Again Button'                       | Triggers the following actions: load new excerpt paragraph, reset timer to 01:00, clear text input box     | Pass   |
 
 
