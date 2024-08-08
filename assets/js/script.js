@@ -77,6 +77,12 @@ function calculateWPM() {
 
 function resetGame() {
 
+    // Clear the text input box
+    typingInput.value = '';
+    
+    // Run the loadRandomExcerpt function
+    loadRandomExcerpt();
+    
 }
 
 
