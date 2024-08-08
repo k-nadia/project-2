@@ -14,11 +14,16 @@ const excerpts = [
 const typingText = document.querySelector(".typing-text p");
 
 function loadRandomExcerpt() {
+    // Clear the current content
+    typingText.innerHTML = '';
+
     //Generate pseudo random integer to allow us select a book excerpt at random
     let randomIndex = Math.floor(Math.random() * excerpts.length);
+
     //Split string into substrings - spans containing each character, contained inside p tag
     excerpts[randomIndex].split("").forEach(span => {
         let spanContent = `<span>${span}</span>`;
+        
         // Add the content to the typing text element
         typingText.innerHTML += spanContent;
     });
