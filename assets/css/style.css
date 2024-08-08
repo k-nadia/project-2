@@ -75,13 +75,6 @@ button {
     width: 0;
 }
 
-.typing-input {
-    display: flex;
-    width: 100%;
-    padding: 5px 5px;
-    font-size: 19px;
-}
-
 .result-details li {
     list-style: none;
     padding: 10px 20px;
@@ -96,4 +89,11 @@ button {
     text-align: justify;
     font-size: 19px;
     letter-spacing: 1px;
+}
+
+#typing-input {
+    display: flex;
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 19px;
 }

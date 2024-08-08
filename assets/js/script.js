@@ -52,7 +52,7 @@ function startTimer(duration, display) {
 }
 
 //Activates countdown to start when user presses a keyboard key
-document.addEventListener('keypress', function () {
+document.addEventListener('keydown', function () {
     const countdownTime = 60; // 60 seconds
     const display = document.querySelector('#timer');
     startTimer(countdownTime, display);
