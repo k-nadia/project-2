@@ -23,7 +23,7 @@ function loadRandomExcerpt() {
     //Split string into substrings - spans containing each character, contained inside p tag
     excerpts[randomIndex].split("").forEach(span => {
         let spanContent = `<span>${span}</span>`;
-        
+
         // Add the content to the typing text element
         typingText.innerHTML += spanContent;
     });
@@ -34,8 +34,9 @@ function startTimer(duration, display) {
     let timer = duration,
         minutes, seconds;
     const interval = setInterval(function () {
-        minutes = parseInt(timer / 60, 10);
-        seconds = parseInt(timer % 60, 10);
+
+        minutes = Math.floor(timer / 60);
+        seconds = Math.floor(timer % 60);
 
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
