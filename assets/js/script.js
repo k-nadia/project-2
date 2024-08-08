@@ -87,6 +87,11 @@ function resetTest() {
     //Reset timer & interval
     clearInterval(timerInterval); 
     timerDisplay.textContent = "01:00";
+
+    // Reset the timer countdown to start fresh
+    document.removeEventListener('keydown', startOnKeydown);
+    document.addEventListener('keydown', startOnKeydown, { once: true });
+    
 }
 
 // Function to start the timer on the first keydown event
