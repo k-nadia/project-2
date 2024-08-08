@@ -12,7 +12,9 @@ const excerpts = [
 ];
 
 const typingText = document.querySelector(".typing-text p");
-
+const typingInput = document.getElementById('typing-input');
+const timerDisplay = document.getElementById('timer');
+let timerInterval = null; 
 
 function loadRandomExcerpt() {
 
