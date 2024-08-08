@@ -36,7 +36,11 @@ function loadRandomExcerpt() {
 function startTimer(duration, display) {
     let timer = duration,
         minutes, seconds;
-    const interval = setInterval(function () {
+
+    // Clear existing timer interval before starting new one
+    clearInterval(timerInterval);   
+
+    timerInterval = setInterval(function () {
 
         minutes = Math.floor(timer / 60);
         seconds = Math.floor(timer % 60);
