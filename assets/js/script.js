@@ -46,8 +46,8 @@ function startTimer(duration, display) {
 
         display.textContent = minutes + ":" + seconds;
         //Stop the countdown once the timer hits 00:00
-        if (--timer < 0) {
-            clearInterval(interval);
+        if (timer <= 0) {
+            clearInterval(timerinterval);
             display.textContent = "00:00";
         }
     }, 1000);
