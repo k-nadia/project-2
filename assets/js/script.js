@@ -1,3 +1,7 @@
+/*******************************
+ ********* VARIABLES ***********
+ *******************************/
+
 const excerpts = [
     //To The Lighthouse by Virgina Woolf
     "'Yes, of course, if it`s fine tomorrow,' said Mrs. Ramsay. 'But you`ll have to be up with the lark,' she added. To her son these words conveyed an extraordinary joy, as if it were settled, the expedition were bound to take place, and the wonder to which he had looked forward, for years and years it seemed, was, after a night`s darkness and a day`s sail, within touch. Since he belonged, even at the age of six, to that great clan which cannot keep this feeling separate from that, but must let future prospects, with their joys and sorrows, cloud what is actually at hand, since to such people even in earliest childhood any turn in the wheel of sensation has the power to crystallise and transfix the moment upon which its gloom or radiance rests, James Ramsay, sitting on the floor cutting out pictures from the illustrated catalogue of the Army and Navy stores, endowed the picture of a refrigerator, as his mother spoke, with heavenly bliss. It was fringed with joy. The wheelbarrow, the lawnmower, the sound of poplar trees, leaves whitening before rain, rooks cawing, brooms knocking, dresses rustling—all these were so coloured and distinguished in his mind that he had already his private code, his secret language, though he appeared the image of stark and uncompromising severity, with his high forehead and his fierce blue eyes, impeccably candid and pure, frowning slightly at the sight of human frailty, so that his mother, watching him guide his scissors neatly round the refrigerator, imagined him all red and ermine on the Bench or directing a stern and momentous enterprise in some crisis of public affairs.",
@@ -14,31 +18,36 @@ const excerpts = [
 const typingText = document.querySelector(".typing-text p");
 const typingInput = document.getElementById('typing-input');
 const timerDisplay = document.getElementById('timer');
-let timerInterval = null; 
+let timerInterval = null;
+
+
+/*******************************
+ ********* FUNCTIONS ***********
+ *******************************/
 
 function loadRandomExcerpt() {
 
-    // Clear the current content
+    // clear the current content
     typingText.innerHTML = '';
 
-    // Generate pseudo-random integer to allow us to select a book excerpt at random
+    // generate pseudo-random integer to allow us to select a book excerpt at random
     let randomIndex = Math.floor(Math.random() * excerpts.length);
 
-    // Split string into spans, each containing one character
+    // split string into spans, each containing one character
     let spanContent = excerpts[randomIndex].split("").map(char => `<span>${char}</span>`).join('');
 
-    // Add the content to the typing text element
+    // add the content to the typing text element
     typingText.innerHTML = spanContent;
 
 }
 
-//Sets the timer countdown increments of one second
+//sets the timer countdown increments of one second
 function startTimer(duration, display) {
     let timer = duration,
         minutes, seconds;
 
-    // Clear existing timer interval before starting new one
-    clearInterval(timerInterval);   
+    // clear existing timer interval before starting new one
+    clearInterval(timerInterval);
 
     timerInterval = setInterval(function () {
 
@@ -49,7 +58,7 @@ function startTimer(duration, display) {
         seconds = seconds < 10 ? "0" + seconds : seconds;
 
         display.textContent = minutes + ":" + seconds;
-        //Stop the countdown once the timer hits 00:00
+        //stop the countdown once the timer hits 00:00
         if (timer <= 0) {
             clearInterval(timerInterval);
             display.textContent = "00:00";
@@ -59,16 +68,6 @@ function startTimer(duration, display) {
     }, 1000);
 }
 
-//Activates countdown to start when user presses a keyboard key
-document.addEventListener('keydown', function () {
-    const countdownTime = 60; // 60 seconds
-    const display = document.querySelector('#timer');
-    startTimer(countdownTime, display);
-    // Ensure the event listener is only triggered once
-}, {
-    once: true
-});
-
 function checkTyping() {
 
 }
@@ -77,40 +76,64 @@ function calculateWPM() {
 
 }
 
-//Function to reset the test
+//function to reset the test
 function resetTest() {
 
-    //Text input reset & random excerpt reload
+    //text input reset & random excerpt reload
     typingInput.value = '';
     loadRandomExcerpt();
-    
-    //Reset timer & interval
-    clearInterval(timerInterval); 
+
+    //reset timer & interval
+    clearInterval(timerInterval);
     timerDisplay.textContent = "01:00";
 
-    // Reset the timer countdown to start fresh
+    // reset the timer countdown to start fresh
     document.removeEventListener('keydown', startOnKeydown);
-    document.addEventListener('keydown', startOnKeydown, { once: true });
-    
+    document.addEventListener('keydown', startOnKeydown, {
+        once: true
+    });
+
 }
 
-// Function to start the timer on the first keydown event
+// function to start the timer on the first keydown event
 function startOnKeydown() {
     const countdownTime = 60; // 60 seconds
     startTimer(countdownTime, timerDisplay);
 }
 
+
+/*******************************
+ ****** EVENT LISTENERS ********
+ *******************************/
+
+//activates countdown to start when user presses a keyboard key
+document.addEventListener('keydown', function () {
+    const countdownTime = 60; // 60 seconds
+    const display = document.querySelector('#timer');
+    startTimer(countdownTime, display);
+    // ensure the event listener is only triggered once
+}, {
+    once: true
+});
+
+
 // remove placeholder text when input box is clicked
-typingInput.addEventListener('focus', function() {
+typingInput.addEventListener('focus', function () {
     typingInput.placeholder = '';
 });
 
 // restore placeholder text when the input box is empty
-typingInput.addEventListener('blur', function() {
+typingInput.addEventListener('blur', function () {
     if (typingInput.value === '') {
         typingInput.placeholder = 'Start typing here...';
     }
 });
 
 document.getElementById('reset-button').addEventListener('click', resetTest);
+
+
+/*******************************
+ ******* EVENT HANDLERS ********
+ *******************************/
+
 window.onload = loadRandomExcerpt;
