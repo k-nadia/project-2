@@ -105,5 +105,12 @@ typingInput.addEventListener('focus', function() {
     typingInput.placeholder = '';
 });
 
+// restore placeholder text when the input box is empty
+typingInput.addEventListener('blur', function() {
+    if (typingInput.value === '') {
+        typingInput.placeholder = 'Start typing here...';
+    }
+});
+
 document.getElementById('reset-button').addEventListener('click', resetTest);
 window.onload = loadRandomExcerpt;
