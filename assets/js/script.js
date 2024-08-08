@@ -68,4 +68,4 @@ const excerpts = [
 
 
 document.getElementsByClass('reset-button').addEventListener('click', loadRandomExcerpt);
-loadRandomExcerpt();
+window.onload = loadRandomExcerpt;
