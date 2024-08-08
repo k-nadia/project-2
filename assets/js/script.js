@@ -81,6 +81,7 @@ function resetTest() {
 
     //text input reset & random excerpt reload
     typingInput.value = '';
+    typingInput.placeholder = 'Start typing here...';
     loadRandomExcerpt();
 
     //reset timer & interval
