@@ -51,9 +51,11 @@ function startTimer(duration, display) {
         display.textContent = minutes + ":" + seconds;
         //Stop the countdown once the timer hits 00:00
         if (timer <= 0) {
-            clearInterval(timerinterval);
+            clearInterval(timerInterval);
             display.textContent = "00:00";
         }
+
+        timer--;
     }, 1000);
 }
 
@@ -75,7 +77,8 @@ function calculateWPM() {
 
 }
 
-function resetGame() {
+//Function to reset the test
+function resetTest() {
 
     //Text input reset & random excerpt reload
     typingInput.value = '';
@@ -86,6 +89,11 @@ function resetGame() {
     timerDisplay.textContent = "01:00";
 }
 
+// Function to start the timer on the first keydown event
+function startOnKeydown() {
+    const countdownTime = 60; // 60 seconds
+    startTimer(countdownTime, timerDisplay);
+}
 
-document.getElementById('reset-button').addEventListener('click', loadRandomExcerpt);
+document.getElementById('reset-button').addEventListener('click', resetTest);
 window.onload = loadRandomExcerpt;
