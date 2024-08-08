@@ -6,6 +6,7 @@ function loadRandomExcerpt() {
     //Split string into substrings - spans containing each character, contained inside p tag
     excerpts[randomIndex].split("").forEach(span => {
         let spanContent = `<span>${span}</span>`;
+        // Add the content to the typing text element
         typingText.innerHTML += spanContent;
     });
 }
