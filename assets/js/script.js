@@ -81,6 +81,7 @@ function resetGame() {
     typingInput.value = '';
     loadRandomExcerpt();
     
+    //Reset timer & interval
     clearInterval(timerInterval); 
     timerDisplay.textContent = "01:00";
 }
