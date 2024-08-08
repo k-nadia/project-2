@@ -77,12 +77,12 @@ function calculateWPM() {
 
 function resetGame() {
 
-    // Clear the text input box
+    //Text input reset & random excerpt reload
     typingInput.value = '';
-    
-    // Run the loadRandomExcerpt function
     loadRandomExcerpt();
     
+    clearInterval(timerInterval); 
+    timerDisplay.textContent = "01:00";
 }
 
 
