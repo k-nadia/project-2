@@ -100,5 +100,10 @@ function startOnKeydown() {
     startTimer(countdownTime, timerDisplay);
 }
 
+// remove placeholder text when input box is clicked
+typingInput.addEventListener('focus', function() {
+    typingInput.placeholder = '';
+});
+
 document.getElementById('reset-button').addEventListener('click', resetTest);
 window.onload = loadRandomExcerpt;
