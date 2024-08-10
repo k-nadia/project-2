@@ -101,6 +101,8 @@ function checkTyping() {
             span.classList.remove('correct', 'incorrect');
         }
     });
+
+    totalKeystrokes = inputArray.length;
 }
 
 function calculateWPM() {
