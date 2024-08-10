@@ -121,9 +121,12 @@ function startTimer(duration, display) {
         //stop the countdown once the timer hits 00:00
         if (timer <= 0) {
             clearInterval(timerInterval);
+            typingInput.disabled = true;
             display.textContent = "00:00";
             typingInput.blur();
-            typingInput.disabled = true;
+            // display results when time is up
+            showResults(); 
+
         }
 
         timer--;
@@ -151,9 +154,13 @@ function resetTest() {
 }
 
 // function to start the timer on the first keydown event
+
 function startOnKeydown() {
-    const countdownTime = 60; // 60 seconds
-    startTimer(countdownTime, timerDisplay);
+    if (!timerRunning) {
+        const countdownTime = 60; // 60 seconds
+        startTimer(countdownTime, timerDisplay);
+        timerRunning = true;
+    }
 }
 
 
