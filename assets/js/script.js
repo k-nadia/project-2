@@ -23,6 +23,10 @@ const accuracyDisplay = document.querySelector('.accuracy span');
 const errorsDisplay = document.querySelector('.error span');
 const totalWordsDisplay = document.querySelector('.total-words span');
 let timerInterval = null;
+let correctChars = 0;
+let totalKeystrokes = 0;
+let errors = 0;
+let timerRunning = false;
 
 
 /*******************************
