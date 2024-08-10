@@ -76,8 +76,31 @@ function startTimer(duration, display) {
     }, 1000);
 }
 
-function checkTyping() {
+// Function to run when input is typed
 
+function checkTyping() {
+    const inputArray = typingInput.value.split("");
+    correctChars = 0;
+    errors = 0;
+
+    let spans = typingText.querySelectorAll('span');
+    spans.forEach((span, index) => {
+        if (index < inputArray.length) {
+            let char = inputArray[index];
+
+            if (char === span.innerText) {
+                span.classList.add('correct');
+                span.classList.remove('incorrect');
+                correctChars++;
+            } else {
+                span.classList.add('incorrect');
+                span.classList.remove('correct');
+                errors++;
+            }
+        } else {
+            span.classList.remove('correct', 'incorrect');
+        }
+    });
 }
 
 function calculateWPM() {
