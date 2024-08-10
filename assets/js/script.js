@@ -76,8 +76,7 @@ function startTimer(duration, display) {
     }, 1000);
 }
 
-// Function to run when input is typed
-
+// function to check users typing against the excerpt text
 function checkTyping() {
     const inputArray = typingInput.value.split("");
     correctChars = 0;
@@ -102,7 +101,14 @@ function checkTyping() {
         }
     });
 
+    // calculate total characters typed
     totalKeystrokes = inputArray.length;
+
+    if (timerDisplay.innerText === '00:00') {
+        // disable input
+        typingInput.disabled = true;  
+        showResults();
+    }
 }
 
 function showResults() {
