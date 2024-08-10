@@ -18,6 +18,10 @@ const excerpts = [
 const typingText = document.querySelector(".typing-text p");
 const typingInput = document.getElementById('typing-input');
 const timerDisplay = document.getElementById('timer');
+const wpmDisplay = document.querySelector('.wpm span');
+const accuracyDisplay = document.querySelector('.accuracy span');
+const errorsDisplay = document.querySelector('.error span');
+const totalWordsDisplay = document.querySelector('.total-words span');
 let timerInterval = null;
 
 
