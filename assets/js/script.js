@@ -51,6 +51,9 @@ function loadRandomExcerpt() {
     // add the content to the typing text element
     typingText.innerHTML = spanContent;
 
+    // activate the cursor at the start
+    typingText.querySelector('span').classList.add('active');
+
 }
 
 // function to check users typing against the excerpt text
@@ -76,6 +79,14 @@ function checkTyping() {
         } else {
             span.classList.remove('correct', 'incorrect');
         }
+
+        // handle cursor
+        if (index === inputArray.length) {
+        span.classList.add('active');
+        } else {
+        span.classList.remove('active');
+        }
+
     });
 
     // calculate total characters typed
