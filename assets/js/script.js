@@ -28,12 +28,16 @@ let totalKeystrokes = 0;
 let errors = 0;
 let timerRunning = false;
 
-
 /*******************************
  ********* FUNCTIONS ***********
  *******************************/
 
 function loadRandomExcerpt() {
+
+    // reset results stats
+    correctChars = 0;
+    totalKeystrokes = 0;
+    errors = 0;
 
     // clear the current content
     typingText.innerHTML = '';
@@ -47,33 +51,6 @@ function loadRandomExcerpt() {
     // add the content to the typing text element
     typingText.innerHTML = spanContent;
 
-}
-
-//sets the timer countdown increments of one second
-function startTimer(duration, display) {
-    let timer = duration,
-        minutes, seconds;
-
-    // clear existing timer interval before starting new one
-    clearInterval(timerInterval);
-
-    timerInterval = setInterval(function () {
-
-        minutes = Math.floor(timer / 60);
-        seconds = Math.floor(timer % 60);
-
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-
-        display.textContent = minutes + ":" + seconds;
-        //stop the countdown once the timer hits 00:00
-        if (timer <= 0) {
-            clearInterval(timerInterval);
-            display.textContent = "00:00";
-        }
-
-        timer--;
-    }, 1000);
 }
 
 // function to check users typing against the excerpt text
@@ -121,6 +98,36 @@ function showResults() {
     errorsDisplay.innerText = errors;
     totalWordsDisplay.innerText = totalWordsTyped;
 
+}
+
+//sets the timer countdown increments of one second
+function startTimer(duration, display) {
+    
+    let timer = duration,
+        minutes, seconds;
+
+    // clear existing timer interval before starting new one
+    clearInterval(timerInterval);
+
+    timerInterval = setInterval(function () {
+
+        minutes = Math.floor(timer / 60);
+        seconds = Math.floor(timer % 60);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+        //stop the countdown once the timer hits 00:00
+        if (timer <= 0) {
+            clearInterval(timerInterval);
+            display.textContent = "00:00";
+            typingInput.blur();
+            typingInput.disabled = true;
+        }
+
+        timer--;
+    }, 1000);
 }
 
 //function to reset the test
