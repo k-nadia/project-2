@@ -1,7 +1,8 @@
+/* google fonts import file */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 
-
+/* universal styles */
 * {
     margin: 0; 
     padding: 0;
@@ -25,6 +26,7 @@ body {
     background-color: #f5f3c4;
 }
 
+/* timer styles */
 .timer-box {
     display: flex;
 }
@@ -60,7 +62,7 @@ body {
     margin: 0.5em 0;
 }
 
-
+/* test reset button styles */
 .btn {
     display: flex;
     justify-content: center;
@@ -71,6 +73,7 @@ button {
     padding: 15px 30px;
 }
 
+/* excerpt paragraph scrollbar style*/
 .typing-text::-webkit-scrollbar {
     width: 0;
 }
