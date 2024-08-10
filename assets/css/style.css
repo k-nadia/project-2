@@ -97,3 +97,18 @@ button {
     padding: 5px 5px;
     font-size: 19px;
 }
+
+/* styles for correct and incorrect typing */
+.typing-text span.correct {
+    color: green;
+}
+
+.typing-text span.incorrect {
+    color: red;
+}
+
+.typing-text p {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
