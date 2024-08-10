@@ -151,6 +151,11 @@ function resetTest() {
         once: true
     });
 
+    // reset test results
+    wpmDisplay.innerText = '0';
+    accuracyDisplay.innerText = '0%';
+    errorsDisplay.innerText = '0';
+    totalWordsDisplay.innerText = '0';
 }
 
 // function to start the timer on the first keydown event
