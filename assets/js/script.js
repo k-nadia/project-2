@@ -83,7 +83,7 @@ function checkTyping() {
 
     if (timerDisplay.innerText === '00:00') {
         // disable input
-        typingInput.disabled = true;  
+        typingInput.disabled = true;
         showResults();
     }
 }
@@ -102,7 +102,7 @@ function showResults() {
 
 //sets the timer countdown increments of one second
 function startTimer(duration, display) {
-    
+
     let timer = duration,
         minutes, seconds;
 
@@ -125,7 +125,7 @@ function startTimer(duration, display) {
             display.textContent = "00:00";
             typingInput.blur();
             // display results when time is up
-            showResults(); 
+            showResults();
 
         }
 
@@ -145,17 +145,17 @@ function resetTest() {
     clearInterval(timerInterval);
     timerDisplay.textContent = "01:00";
 
-    // reset the timer countdown to start fresh
-    document.removeEventListener('keydown', startOnKeydown);
-    document.addEventListener('keydown', startOnKeydown, {
-        once: true
-    });
-
     // reset test results
     wpmDisplay.innerText = '0';
     accuracyDisplay.innerText = '0%';
     errorsDisplay.innerText = '0';
     totalWordsDisplay.innerText = '0';
+
+    // reset the timer countdown to start fresh
+    document.removeEventListener('keydown', startOnKeydown);
+    document.addEventListener('keydown', startOnKeydown, {
+        once: true
+    });
 }
 
 // function to start the timer on the first keydown event
