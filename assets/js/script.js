@@ -194,6 +194,8 @@ document.addEventListener('keydown', function () {
     once: true
 });
 
+// listen for input in the typing box
+typingInput.addEventListener('input', checkTyping);
 
 // remove placeholder text when input box is clicked
 typingInput.addEventListener('focus', function () {
