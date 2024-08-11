@@ -115,3 +115,55 @@ button {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
 }
+
+/* MEDIA QUERY - SMALLER MOBILE SCREENS (max width: 412px) */
+@media (max-width: 412px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+    .content-box {
+        padding: 10px 15px;
+    }
+    .button {
+        padding: 10px 15px;
+    }
+    body {
+        font-size: 16px;
+    }
+}
+
+/* MEDIA QUERY - MEDIUM MOBILE SCREENS (max width: 574px) */
+@media (max-width: 574px) {
+    .wrapper {
+        width: 100%;
+        padding: 25px;
+    }
+    .content-box {
+        padding: 20px 20px;
+    }
+    button {
+        padding: 12px 25px;
+    }
+    body {
+        font-size: 17px;
+    }
+}
+
+/* MEDIA QUERY - MOBILE SCREENS (max width 767px) */
+@media (max-width: 767px) {
+    .wrapper {
+        width: 95%;
+        padding: 30px;
+    }
+    .content-box {
+        padding: 25px;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    #typing-input {
+        font-size: 18px;
+    }
+}
