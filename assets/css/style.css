@@ -116,6 +116,19 @@ button {
     padding-bottom: 10px;
 }
 
+/* styles to preserve white spaces */
+.typing-text span {
+    display: inline-block; 
+    /* preserve white space */
+    white-space: pre; 
+}
+
+.typing-text span.space {
+    display: inline-block;
+    /* ensure space is visible */
+    width: 0.5em; 
+}
+
 /* cursor blinking styles */
 .typing-text span.active {
     border-right: 2px solid black; 
