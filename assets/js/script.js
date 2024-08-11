@@ -56,6 +56,18 @@ function loadRandomExcerpt() {
 
 }
 
+function showResults() {
+    const totalWordsTyped = typingInput.value.trim().split(/\s+/).filter(word => word).length;
+    const wpm = correctChars / 5 / 1; // Assuming 1-minute timer
+    const accuracy = (correctChars / totalKeystrokes) * 100 || 0;
+
+    wpmDisplay.innerText = wpm.toFixed(0);
+    accuracyDisplay.innerText = accuracy.toFixed(0) + '%';
+    errorsDisplay.innerText = errors;
+    totalWordsDisplay.innerText = totalWordsTyped;
+
+}
+
 // function to check users typing against the excerpt text
 function checkTyping() {
     const inputArray = typingInput.value.split("");
@@ -99,18 +111,6 @@ function checkTyping() {
     }
 }
 
-function showResults() {
-    const totalWordsTyped = typingInput.value.trim().split(/\s+/).filter(word => word).length;
-    const wpm = correctChars / 5 / 1; // Assuming 1-minute timer
-    const accuracy = (correctChars / totalKeystrokes) * 100 || 0;
-
-    wpmDisplay.innerText = wpm.toFixed(0);
-    accuracyDisplay.innerText = accuracy.toFixed(0) + '%';
-    errorsDisplay.innerText = errors;
-    totalWordsDisplay.innerText = totalWordsTyped;
-
-}
-
 //sets the timer countdown increments of one second
 function startTimer(duration, display) {
 
@@ -144,6 +144,15 @@ function startTimer(duration, display) {
     }, 1000);
 }
 
+// function to start the timer on the first keydown event
+function startOnKeydown() {
+    if (!timerRunning) {
+        const countdownTime = 60; // 60 seconds
+        startTimer(countdownTime, timerDisplay);
+        timerRunning = true;
+    }
+}
+
 //function to reset the test
 function resetTest() {
 
@@ -168,17 +177,6 @@ function resetTest() {
         once: true
     });
 }
-
-// function to start the timer on the first keydown event
-
-function startOnKeydown() {
-    if (!timerRunning) {
-        const countdownTime = 60; // 60 seconds
-        startTimer(countdownTime, timerDisplay);
-        timerRunning = true;
-    }
-}
-
 
 /*******************************
  ****** EVENT LISTENERS ********
