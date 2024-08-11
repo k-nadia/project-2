@@ -214,7 +214,7 @@ Below - amended code which produced correct output.
 
 ### **Javascript Linter Tool**
 
-Javascript Jshint Results:
+No errors found within script.js file when passed through ESLint Javascript Linter.
 
 ### **HTML W3C Validator**
 
