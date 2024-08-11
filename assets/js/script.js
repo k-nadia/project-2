@@ -153,17 +153,19 @@ function startOnKeydown() {
     }
 }
 
-//function to reset the test
+// function to reset the test
 function resetTest() {
 
-    //text input reset & random excerpt reload
+    // text input reset & random excerpt reload
     typingInput.value = '';
+    typingInput.disabled = false; // Ensure input is enabled
     typingInput.placeholder = 'Start typing here...';
     loadRandomExcerpt();
 
-    //reset timer & interval
+    // reset timer & interval
     clearInterval(timerInterval);
     timerDisplay.textContent = "01:00";
+    timerRunning = false; // Reset timer flag
 
     // reset test results
     wpmDisplay.innerText = '0';
@@ -171,7 +173,10 @@ function resetTest() {
     errorsDisplay.innerText = '0';
     totalWordsDisplay.innerText = '0';
 
-    // reset the timer countdown to start fresh
+    // focus on the input box to ensure the cursor appears
+    typingInput.focus();
+
+    // reattach the event handler for starting the timer on the first keydown event
     document.removeEventListener('keydown', startOnKeydown);
     document.addEventListener('keydown', startOnKeydown, {
         once: true
