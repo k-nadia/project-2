@@ -120,7 +120,9 @@ As a developer:
 
 <br>
 
-![MobileWireframes](./assets/images/wireframes/wireframesMobile.png)
+![MobileWireframes](./assets/images/wireframes/wireframe-mobile.png)
+![TabletWireframes](./assets/images/wireframes/wireframe-tablet.png)
+![DesktopWireframes](./assets/images/wireframes/wireframe-desktop.png)
 <hr>
 
 ## **FEATURES**
