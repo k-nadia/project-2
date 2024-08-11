@@ -181,3 +181,33 @@ button {
         align-items: center;
     }
 }
+
+/* MEDIA QUERY - LAPTOPS & DESKTOPS (992px and larger) */
+@media (min-width: 992px) and (max-width: 1023px) {
+    .wrapper {
+        width: 80%;
+    }
+    body {
+        font-size: 18px;
+    }
+}
+
+/* MEDIA QUERY - DESKTOP SCREENS (1024px and larger) */
+@media (min-width: 1024px) and (max-width: 1799px) {
+    .wrapper {
+        max-width: 900px;
+    }
+    body {
+        font-size: 19px;
+    }
+}
+
+/* MEDIA QUERY - WIDER SCREEN DESKTOPS (1800px and larger) */
+@media (min-width: 1800px) {
+    .wrapper {
+        max-width: 1200px;
+    }
+    body {
+        font-size: 20px;
+    }
+}
