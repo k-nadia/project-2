@@ -129,6 +129,13 @@ button {
     width: 0.5em; 
 }
 
+.typing-text span.active {
+    border-right: 2px solid black;
+    animation: blink-cursor 0.7s steps(1) infinite;
+    /* adjust the margin to offset border width */
+    margin-right: -2px; 
+}
+
 /* cursor blinking styles */
 .typing-text span.active {
     border-right: 2px solid black; 
