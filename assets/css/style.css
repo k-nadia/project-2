@@ -116,6 +116,24 @@ button {
     padding-bottom: 10px;
 }
 
+/* cursor blinking styles */
+.typing-text span.active {
+    border-right: 2px solid black; 
+    animation: blink-cursor 0.7s steps(1) infinite; 
+    margin-right: -2px; 
+}
+
+@keyframes blink-cursor {
+    0%, 50% {
+        /* cursor visible */
+        border-color: black; 
+    }
+    51%, 100% {
+        /* cursor hidden */
+        border-color: transparent;
+    }
+}
+
 /* MEDIA QUERY - SMALLER MOBILE SCREENS (max width: 412px) */
 @media (max-width: 412px) {
     .wrapper {
