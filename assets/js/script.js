@@ -45,8 +45,12 @@ function loadRandomExcerpt() {
     // generate pseudo-random integer to allow us to select a book excerpt at random
     let randomIndex = Math.floor(Math.random() * excerpts.length);
 
+
     // split string into spans, each containing one character
-    let spanContent = excerpts[randomIndex].split("").map(char => `<span>${char}</span>`).join('');
+    const excerptText = excerpts[randomIndex];
+    const spanContent = excerptText.split('').map(char => {
+    return char === ' ' ? `<span class="space">${char}</span>` : `<span>${char}</span>`;
+    }).join('');
 
     // add the content to the typing text element
     typingText.innerHTML = spanContent;
