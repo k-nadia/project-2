@@ -131,6 +131,14 @@ button {
     body {
         font-size: 16px;
     }
+    .content ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .result-details li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 
 /* MEDIA QUERY - MEDIUM MOBILE SCREENS (max width: 574px) */
@@ -147,6 +155,14 @@ button {
     }
     body {
         font-size: 17px;
+    }
+    .content ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .result-details li {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
 
@@ -165,6 +181,14 @@ button {
     }
     #typing-input {
         font-size: 18px;
+    }
+    .content ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .result-details li {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
 
