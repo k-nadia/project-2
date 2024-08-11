@@ -134,6 +134,10 @@ button {
     }
 }
 
+.typing-text span {
+    display: inline-block; 
+}
+
 /* MEDIA QUERY - SMALLER MOBILE SCREENS (max width: 412px) */
 @media (max-width: 412px) {
     .wrapper {
