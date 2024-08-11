@@ -222,7 +222,7 @@ No errors found within index.html file when passed through W3C Markup Validator.
 
 ### **CSS Jigsaw Validator**
 
-CSS Jigsaw Validator Results:
+No errors found within style.css file when passed through W3C CSS Jigsaw Validator.
 
 ### **Google Chrome Lighthouse Tool**
 
