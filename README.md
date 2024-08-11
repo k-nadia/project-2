@@ -136,8 +136,11 @@ Additional features I would like to implement to this project would be...
 | Element                                   | Action (if applicable)                         | Expected Outcome                                   | Result |
 |:-----------------------------------------:|:----------------------------------------------:|:--------------------------------------------------:|:------:|
 | Content box                               | Load web page                                  | A randomly selected paragraph from the 'excerpts' array is displayed | Pass |
-| Content box                               | Click 'Try Again Button'                       | The randomly selected paragraph is replaced with a different randomly selected paragraph from the 'excerpts' array | Pass |
 | Content box                               | Scroll mouse while cursor is over the contents box | Text content scrolls to display the complete paragraph | Pass |
+| Content box                               | Type letter in input box (that matches excerpt character and position) | Letter turns green (correct) | Pass |
+| Content box                               | Type letter in input box (that does not match excerpt character and position) | Letter turns red (incorrect) | Pass |
+| Content box                               | Click 'Try Again Button'                       | Excerpt font color returns to original black color | Pass |
+| Content box                               | Click 'Try Again Button'                       | The randomly selected paragraph is replaced with a different randomly selected paragraph from the 'excerpts' array | Pass |
 | Countdown timer                           | Load web page                                  | Static timer displays 01:00                                | Pass |
 | Countdown timer                           | Press any key while cursor is activated within the input box | Timer begins to countdown from 01:00 to 00:00 in one second increments| Pass |
 | Countdown timer                           | N/A                                            | Countdown stops once 00:00 is reached              | Pass   |
@@ -149,6 +152,13 @@ Additional features I would like to implement to this project would be...
 | Text input box                            | Click 'Try Again Button'                       | All typed text within the input box is cleared and the placeholder text reappears    | Pass   |
 | Text input box                            | Input box loses focus (empty)                  | Placeholder text reappears                              | Pass |
 | Try Again Button                          | Click 'Try Again Button'                       | Triggers the following actions: load new excerpt paragraph, reset timer to 01:00, clear text input box     | Pass   |
+| Results Scores                         | Load web page                      | All results (WPM, accuracy, errors, total words typed) display zero values   | Pass   |
+| Results Scores                      | Countdown timer reaches 00:00                       | All results (WPM, accuracy, errors, total words typed) display results scores based on the users typing performance during the past minute   | Pass   |
+| Results Scores (WPM)                        | Countdown timer reaches 00:00                       | Displays the user's word per minute typing speed (based on correctly typed words only)   | Pass   |
+| Results Scores (Accuracy)                     | Countdown timer reaches 00:00                       | Displays the user's typing accuracy % | Pass   |
+| Results Scores (Errors)                        | Countdown timer reaches 00:00                       | Displays the user's total amount of typing errors  | Pass   |
+| Results Scores (Total Words Typed)                        | Countdown timer reaches 00:00                       | Displays the user's total amount of words typed within time limit | Pass   |
+| Results                         | Click 'Try Again Button'                       | All results (WPM, accuracy, errors, total words typed) reset to zero values   | Pass   |
 
 
 ### **Troubleshooting**
