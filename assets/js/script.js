@@ -70,9 +70,11 @@ function loadRandomExcerpt() {
     let randomIndex = Math.floor(Math.random() * excerpts.length);
 
 
+    // store the selected excerpt for later use
+    currentExcerpt = excerpts[randomIndex];
+
     // split string into spans, each containing one character
-    const excerptText = excerpts[randomIndex];
-    const spanContent = excerptText.split('').map(char => {
+    const spanContent = currentExcerpt.text.split('').map(char => {
     return char === ' ' ? `<span class="space">${char}</span>` : `<span>${char}</span>`;
     }).join('');
 
