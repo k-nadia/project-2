@@ -247,6 +247,31 @@ Below - amended code which produced correct output.
 
 ![Issue3Screenshot](./assets/images/testing/issue3-3.png)
 
+### **Issue 4**
+
+During the site development I can across a bug which was causing the input form to fail to display across the whole width of the content box, as was the expected outcome. I determined that this was being caused by a mismatched element type across html, css and javascript. The "typing-input" element was declared as a class in HTML and CSS, however in Javascript it was an id. Once I amended the html and css code to match the id type of "typing-input", the issue was resolved.
+
+Below - incorrect display which alerted me to locate and fix the bug.
+
+![Issue4Screenshot](./assets/images/testing/issue4-1.png)
+
+Below - display after bug had been fixed.
+
+![Issue4Screenshot](./assets/images/testing/issue4-2.png)
+
+### **Issue 5**
+
+While testing my site, I discovered that once the user completed the typing text, pressed the 'Try Again' button and proceeded to start typing again, the timer failed to start the countdown. After lots of investigating I found that I had to remove and then subsequently add the 'keydown' event listener which triggers startKeyDown function. After this functionality was added, it caused the startKeyDown function to fully reset properly and return to its original function state which in turn caused the timer problem to disappear.
+
+
+Below - startOnKeyDown function code.
+
+![Issue4Screenshot](./assets/images/testing/issue5-1.png)
+
+Below - event listener actions added to fix the bug.
+
+![Issue4Screenshot](./assets/images/testing/issue5-2.png)
+
 
 ### **Javascript Linter Tool**
 
