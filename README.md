@@ -72,6 +72,35 @@ Deployed website can be be found here: [Type Library](https://k-nadia.github.io/
 
 ### **Colours**
 
+
+The chosen colour palette for the Type Library website is a perfect fit for its literary theme, blending classic tones with accessibility considerations to enhance the user experience. The palette consists of six colours:
+
+**#635042:**
+<br>
+The rich brown colour evokes the look of aged, leather-bound books, lending a vintage feel that resonates with the literary theme. It is used for the content box border to emphasize the main test area, while maintaining an air of sophistication.
+
+**#CA9A76:**
+<br>
+A warm, light brown shade, this colour is reminiscent of old, well-worn paper or wooden bookshelves. It adds a natural tone that makes the site feel inviting, akin to a library or study room. Used within the logo and the reset button background colour.
+
+**#F5F3C4:** 
+<br>
+This soft, pale yellow colour was the first colour I selected for the palette due to its similarity to the yellowing pages of an antique book. It creates a warm and gentle background that is easy on the eyes, while also evoking the nostalgic feeling of reading a classic novel. Used for the test area background colour.
+
+**#2B2B2B:**
+<br>
+This dark grey was incorporated due to its ability to provide high contrast without the harshness of pure black. It ensures readability while keeping the overall aesthetic softer and more in line with the vintage theme. Used for the logo title heading.
+
+**#000000:** 
+<br>
+Pure black was chosen for the highest contrast elements (all of the text within the test area), ensuring maximum legibility and accessibility for all users, including those with visual impairments. 
+
+**#FFFFFF:**
+<br>
+The white colour offers simplicity and high contrast, serving as a clean background that allows other colours and text to stand out sharply. It keeps the design modern and uncluttered, balancing the vintage tones with a contemporary feel. White was used as the webpage background colour.
+
+Collectively these colours create an inviting and accessible environment for users to practice their typing but also immerse them in the experience of interacting with classic literary content.
+
 ![ColorPalette](assets/images/design/color-palette.png)
 
 ### **Typography**
