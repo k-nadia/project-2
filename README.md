@@ -4,10 +4,10 @@
 
 <br>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/k-nadia/project-1?color=red&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/k-nadia/project-1?color=orange&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/k-nadia/project-1?color=yellow&style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/k-nadia/project-1?color=green&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/k-nadia/project-2?color=red&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/k-nadia/project-2?color=orange&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/k-nadia/project-2?color=yellow&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/k-nadia/project-2?color=green&style=for-the-badge)
 
 
 <hr>
