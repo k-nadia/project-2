@@ -241,7 +241,7 @@ This website was deployed to GitHub Pages.
 ### **Deployment Steps**
 
 Deploy this project using the following steps:
-1. Open the responsitory at [PP2 Github](https://github.com/k-nadia/PP2).
+1. Open the respository at [PP2 Github](https://github.com/k-nadia/project-2).
 2. Navigate to the 'Settings' tab.
 3. Within the 'Code & Automation' section, select 'Pages'
 4. Under the 'Branch' section, select 'main' from the drop-down menu.
@@ -251,14 +251,14 @@ Deploy this project using the following steps:
 ### **Forking Steps**
 
 Fork this project using the following steps:
-1. Open the responsitory at [PP2 Github](https://github.com/k-nadia/PP2).
+1. Open the respository at [PP2 Github](https://github.com/k-nadia/project-2).
 2. Select the 'Fork' button near the top of the page.
 3. After a few minutes the newly forked repository will be created under your GitHub account.
 
 ### **Cloning Steps**
 
 Clone this project using the following steps:
-1. Open the responsitory at [PP2 Github](https://github.com/k-nadia/PP2).
+1. Open the respository at [PP2 Github](https://github.com/k-nadia/project-2).
 2. Select the green 'Code' button near the top of the page.
 3. Choose from one of the 3 cloning options: HTTPS, SSH, GitHub CLI.
 4. Click on the clipboard icon to copy the URL.
