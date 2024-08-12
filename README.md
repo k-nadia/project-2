@@ -129,7 +129,12 @@ As a developer:
 
 ### **Features to Implement in the Future**
 
-Additional features I would like to implement to this project would be...
+Additional features I would like to implement to this project would be:
+- Easy/Moderate/Difficult levels of difficulty the user can choose from, with increasingly complex writing styles from which to type.
+- 'Dark' mode, where user can change the test display theme to a high-contrast dark mode interface.
+- Option to select a specific genre of novel to type i.e. classic literature, sci-fi, dystopian, memoir, romance etc.
+- Multiple text size options for users to select, to increase accessibility.
+- Addition test duration options (e.g. 30 seconds, 2 minutes etc.) so users can select a duration based on their preference.
 <hr>
 
 ## **TESTING**
