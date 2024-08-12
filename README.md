@@ -72,6 +72,8 @@ Deployed website can be be found here: [Type Library](https://k-nadia.github.io/
 
 ### **Colours**
 
+![ColorPalette](assets/images/design/color-palette.png)
+
 ### **Typography**
 
 All fonts used throughout the application were sourced from [Google Fonts](https://fonts.google.com/).
