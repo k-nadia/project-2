@@ -96,6 +96,11 @@ function showResults() {
     errorsDisplay.innerText = errors;
     totalWordsDisplay.innerText = totalWordsTyped;
 
+    // Show alert with the book title and author
+    if (currentExcerpt) {
+        alert(`You have been typing an excerpt from...\n 
+        "${currentExcerpt.title}" by ${currentExcerpt.author}`);
+    }
 }
 
 // function to check users typing against the excerpt text
