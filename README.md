@@ -31,7 +31,7 @@ Deployed website can be be found here: [Type Library](https://k-nadia.github.io/
 <br><br>
 
 <p align="center">
-<img src ="assets/images/testing/am-i-responsive-placeholder-image.jpg" width="auto" height="auto" alt="AmIResponsive placeholder image showing the following viewports: desktop, laptop, tablet, mobile">
+<img src ="assets/images/testing/AmIResponsive.JPG" width="auto" height="auto" alt="AmIResponsive placeholder image showing the following viewports: desktop, laptop, tablet, mobile">
 </p>
 
 
