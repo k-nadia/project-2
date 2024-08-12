@@ -298,7 +298,14 @@ Clone this project using the following steps:
 ## **CREDITS**
 
 ### **Content Sources**
+Excerpts from the following novels were used for the typing text:
+- To The Lighthouse by Virgina Woolf
+- Jane Eyre by Charlotte Bronte
+- Oliver Twist by Charles Dickens
+- Lord of The Flies by William Golding
+- 1984 by George Orwell
 
+All other text content was written by myself.
 
 ### **Content Generators**
 -  [![Favicon.io](https://img.shields.io/badge/Favicon.io-grey?)](https://favicon.io/) - A favicon.ico icon tool used to generate or download favicon icons in all required sizes. Favicon.io was used to generate favicon.ico file from the Kennet logo JPEG image.
