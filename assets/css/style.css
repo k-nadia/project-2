@@ -56,7 +56,9 @@ body {
 
 .wrapper .content-box {
     padding: 15px 25px;
-    border: 1px solid #ccc;
+    border: 2px solid #635042;
+    outline: 1px solid #635042;
+    outline-offset: -10px;
 }
 
 .content-box .typing-text {
@@ -85,6 +87,8 @@ body {
 
 button {
     padding: 15px 30px;
+    margin-bottom: 10px;
+    background-color: #ca9a76;
 }
 
 /* excerpt paragraph scrollbar style*/
