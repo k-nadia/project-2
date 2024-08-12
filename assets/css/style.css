@@ -32,6 +32,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 /* logo image */
@@ -177,7 +178,7 @@ button {
     }
 
     .logo {
-        max-width: 280px;
+        max-width: 100%;
     }
 
     .content-box {
@@ -211,7 +212,7 @@ button {
     }
 
     .logo {
-        max-width: 300px;
+        max-width: 100%;
     }
 
     .content-box {
@@ -245,7 +246,7 @@ button {
     }
 
     .logo {
-        max-width: 320px;
+        max-width: 100%;
     }
 
     .content-box {
