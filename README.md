@@ -311,5 +311,15 @@ Clone this project using the following steps:
 
 
 ### **Image Credits**
+*Image Usage - Site Logo*
+<br>
+*Logo created using Canva tools*
+<br>
+*Graphic source - Canva*
+<br>
+*Canva website link - [Click Here](https://www.canva.com/)*
+<br>
+![ThumbnailLogo](./assets/images/thumbnails/thumbnail-logo.png)
+<br>
 
 ### **Special Thanks**
