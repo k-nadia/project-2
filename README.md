@@ -300,6 +300,7 @@ Google Chrome Dev Tools Lighthouse Testing Results:
 
 ### **Unfixed Bugs**
 
+To my knowledge there are no unfixed bugs.
 
 <hr>
 
