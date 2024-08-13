@@ -145,6 +145,7 @@ function checkTyping() {
         // handle cursor
         if (index === inputArray.length) {
         span.classList.add('active');
+        checkScroll();
         } else {
         span.classList.remove('active');
         }
