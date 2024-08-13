@@ -111,6 +111,10 @@ function checkScroll() {
     if (activeSpan) {
         const containerRect = typingTextElement.getBoundingClientRect();
         const activeSpanRect = activeSpan.getBoundingClientRect();
+
+        if (activeSpanRect.bottom > containerRect.bottom) {
+            typingTextElement.scrollTop += activeSpanRect.bottom - containerRect.bottom;
+        }
     }
 }
 
