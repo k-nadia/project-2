@@ -289,6 +289,14 @@ No errors found within style.css file when passed through W3C CSS Jigsaw Validat
 
 Google Chrome Dev Tools Lighthouse Testing Results:
 
+<b>Mobile Site</b>
+<br><br>
+![LighthouseTestMobile](./assets/images/testing/mobile-lighthouse-testing-results.png)
+
+<b>Desktop Site</b>
+<br><br>
+![LighthouseTestDesktop](./assets/images/testing/desktop-lighthouse-testing-results.png)
+
 
 ### **Unfixed Bugs**
 
