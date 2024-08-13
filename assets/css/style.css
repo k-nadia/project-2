@@ -41,6 +41,13 @@ body {
     height: auto;
 }
 
+/* paragraph the user will type*/
+.typing-text {
+    max-height: 300px; 
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
 /* timer styles */
 .timer-box {
     display: flex;
