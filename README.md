@@ -179,7 +179,11 @@ Additional features I would like to implement to this project would be:
 | Content box                               | Type letter in input box (that does not match excerpt character and position) | Letter turns red (incorrect) | Pass |
 | Content box                               | Click 'Try Again Button'                       | Excerpt font color returns to original black color | Pass |
 | Content box                               | Click 'Try Again Button'                       | The randomly selected paragraph is replaced with a different randomly selected paragraph from the 'excerpts' array | Pass |
+| Content scrollbar                         | Scroll up or down                       | Typing text paragraph moves up or down according to scroll direction  | Pass   |
+| Content scrollbar                         | Type the last word visible in the typing text paragraph                       | Scroll bar automatically moves the text upwards so the next words to be typed are visible to user | Pass   |
 | Countdown timer                           | Load web page                                  | Static timer displays 01:00                                | Pass |
+| Typing text cursor                        | Load web page                                  | Blinking cursor is displayed on left hand side of the first character within the typing text paragraph                                | Pass |
+| Typing text cursor                        | Type in input box                                  | For each character the user types, the blinking cursor moves right one character to correspond with user's typing position                               | Pass |
 | Countdown timer                           | Press any key while cursor is activated within the input box | Timer begins to countdown from 01:00 to 00:00 in one second increments| Pass |
 | Countdown timer                           | N/A                                            | Countdown stops once 00:00 is reached              | Pass   |
 | Countdown timer                           | Click 'Try Again Button'                       | Countdown resets to 01:00                          | Pass   |
@@ -197,6 +201,7 @@ Additional features I would like to implement to this project would be:
 | Results Scores (Errors)                        | Countdown timer reaches 00:00                       | Displays the user's total amount of typing errors  | Pass   |
 | Results Scores (Total Words Typed)                        | Countdown timer reaches 00:00                       | Displays the user's total amount of words typed within time limit | Pass   |
 | Results                         | Click 'Try Again Button'                       | All results (WPM, accuracy, errors, total words typed) reset to zero values   | Pass   |
+
 
 
 ### **Troubleshooting**
