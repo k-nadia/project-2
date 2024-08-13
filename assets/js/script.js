@@ -103,6 +103,12 @@ function showResults() {
     }
 }
 
+// function to check scroll position within container
+function checkScroll() {
+    const typingTextElement = document.querySelector(".typing-text");
+    const activeSpan = typingTextElement.querySelector('span.active');
+}
+
 // function to check users typing against the excerpt text
 function checkTyping() {
     const inputArray = typingInput.value.split("");
