@@ -409,6 +409,7 @@ Excerpts from the following novels were used for the typing text:
 - To The Lighthouse by Virgina Woolf
 - Jane Eyre by Charlotte Bronte
 - Oliver Twist by Charles Dickens
+- A Little Princess by Frances Hodgson Burnett
 - Lord of The Flies by William Golding
 - 1984 by George Orwell
 - The Great Gatsby by F. Scott Fitzgerald
@@ -421,6 +422,10 @@ Excerpts from the following novels were used for the typing text:
 - Dracula by Bram Stoker
 - Great Expectations by Charles Dickens
 - Little Women by Louisa May Alcott
+- Crime & Punishment Fyodor Dostoyevsky
+- The Handmaid's Tale by Margaret Atwood
+- Vanity Fair by William Makepeace Thackeray
+- The Secret Garden by Frances Hodgson Burnett
 
 
 All other text content was written by myself.
