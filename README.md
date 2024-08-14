@@ -202,7 +202,39 @@ Additional features I would like to implement to this project would be:
 | Results Scores (Total Words Typed)                        | Countdown timer reaches 00:00                       | Displays the user's total amount of words typed within time limit | Pass   |
 | Results                         | Click 'Try Again Button'                       | All results (WPM, accuracy, errors, total words typed) reset to zero values   | Pass   |
 
+<br>
+The site was checked and is working seamlessly and without errors or problems in multiple browsers: Chrome, Firefox, Microsoft Edge IE and Safari.
+<br><br>
+Extensive testing was conducted using Google Chrome Developer Tools, within the Google Chrome browser.
+<br><br>
 
+The following simulated mobile devices were tested using the Chrome Developer Tools device mode to emulate user experience on a wide range of devices:
+- Galaxy Note II/III/S5 (360px x 640px)
+- Galaxy S5 (360 x 640px)
+- Galaxy S8 (360px x 740px)
+- Galaxy 9+ (320px x 658px)
+- Galaxy Tab S4 (712px x 1138px)
+- Galazy Z Fold 5 (344px x 882px)
+- Samsung Galaxy S8+ (360px 740px)
+- Samsung Galaxy S20 Ultra (412px x 915px)
+- Samsung Galaxy A51/71 (412px x 914px)
+- Nokia N9 (480px x 854px)
+- Pixel 3 (393px x 786px)
+- Pixel 4 (353px x 745px)
+- Pixel 7 (412px x 915px)
+- iPhone SE (375px x 667px)
+- iPhone XR (414px x 896px)
+- iPhone 12 Pro (390px x 844px)
+- iPhone 14 Pro Max (430px x 932px)
+- iPhone 5/SE (320px x 578px)
+- iPhone 6/7/8 (375px x 667px)
+- iPhone 6/7/8 Plus (414px x 736px)
+- iPhone X (375px x 812px)
+- iPad (768px x 1024px)
+- iPad Pro (1024px x 1366px)
+- iPad Mini (768px x 1024px)
+- iPad Air (820px x 1180px)
+- Asus Zenbook Fold (853px x 1280px)
 
 ### **Troubleshooting**
 
