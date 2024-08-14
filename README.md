@@ -411,6 +411,17 @@ Excerpts from the following novels were used for the typing text:
 - Oliver Twist by Charles Dickens
 - Lord of The Flies by William Golding
 - 1984 by George Orwell
+- The Great Gatsby by F. Scott Fitzgerald
+- To Kill A Mockingbird by Harper Lee
+- Frankenstein by Mary Shelley
+- Alice's Adventures in Wonderland By Lewis Caroll
+- The Picture of Dorian Grey By Oscar Wilde
+- Les Miserables by Victor Hugo
+- Moby Dick by Herman 
+- Dracula by Bram Stoker
+- Great Expectations by Charles Dickens
+- Little Women by Louisa May Alcott
+
 
 All other text content was written by myself.
 
