@@ -554,7 +554,7 @@ All other text content was written by myself.
 *Graphics License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
 <br>
 ![ThumbnailFavicon](./assets/images/thumbnails/favicon-thumbnail.png)
-<br><br>
+<br>
 
 *Image Usage - Site Logo*
 <br>
