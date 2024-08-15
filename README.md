@@ -191,6 +191,19 @@ For instance, if a user types 100 total keystrokes and a total of 80 characters 
 
 ![TypingTestResults](assets/images/features/test-results.JPG)
 
+### **Reset Button**
+
+The reset button, labelled 'Try Again', triggers the following actions when clicked by the user: 
+
+- Reset timer back to 01:00
+- Replace the excerpt paragraph displayed on screen with a different randomly selected excerpt
+- Set the typingText cursor back to the beginning of the text paragraph
+- Clear the textarea input box of all typed content
+- Reset all results metrics back to zero values
+- Reset scrollbar back to default 'up' position
+
+![ResetButton](assets/images/features/reset-button.JPG)
+
 ### **Features to Implement in the Future**
 
 Additional features I would like to implement to this project would be:
