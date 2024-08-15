@@ -495,6 +495,11 @@ Clone this project using the following steps:
 ## **CREDITS**
 
 ### **Content Sources**
+
+Starting steps from the Code Institute's Love Maths walkthrough project/lesson.
+<br>
+Code Institute website link - [Click here](https://codeinstitute.net)<br> 
+
 Excerpts from the following novels were used for the typing text:
 - To The Lighthouse by Virgina Woolf
 - Jane Eyre by Charlotte Bronte
@@ -529,6 +534,9 @@ All other text content was written by myself.
 
 - [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-grey?)](https://fontawesome.com/) - Font Awesome is an icon library and toolkit. Font Awesome was used to source all icons used in this project.
 
+### **Information Resources**
+- [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
 
 ### **Image Credits**
 *Image Usage - Site Logo*
