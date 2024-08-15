@@ -183,6 +183,8 @@ The typing text utilises a scrollbar which reveals more of the paragraph text to
 
 The text input box was created using the 'textarea' html to ensure a working input box with multiple lines for text. I purposely only wanted to display two lines of the user's typed text, as opposed to the entirety of it, to encourage users to focus on the novel excerpt paragraph instead of being distracted by looking at the words they had typed. Focus on the content to be typed is essential to the touch-typing skill, which aims to connect the letters seen on screen with muscle memory to instruct the fingers where each letter is located on the keyboard. 
 
+*Below - screenshot of main test area.
+![MainTestArea](assets/images/features/main-test-area.png)
 
 
 ### **Book Title Alert**
