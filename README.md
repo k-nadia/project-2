@@ -158,6 +158,14 @@ As a developer:
 
 ## **FEATURES**
 
+### **Book Title & Author Alert**
+
+Once the user has completed the typing test and the timer has reached 00:00, an alert appears on screen informing the user of the novel title and author relating to the excerpt they have just written. This feature was a small but important addition to the project as it aligns with the purpose of the project to introduce users to classic literature as well as helping them to improve their typing skills.
+
+Once the user clicks 'x' to close the alert, the results calculation function is then triggered.
+
+![BookTitleAlertPopUp](assets/images/features/book-alert.png)
+
 ### **Features to Implement in the Future**
 
 Additional features I would like to implement to this project would be:
