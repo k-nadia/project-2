@@ -350,11 +350,25 @@ While testing my site, I discovered that once the user completed the typing text
 
 *Below - startOnKeyDown function code.*
 
-![Issue4Screenshot](./assets/images/testing/issue5-1.png)
+![Issue5Screenshot](./assets/images/testing/issue5-1.png)
 
 *Below - event listener actions added to fix the bug.*
 
-![Issue4Screenshot](./assets/images/testing/issue5-2.png)
+![Issue5Screenshot](./assets/images/testing/issue5-2.png)
+
+### **Issue 6**
+
+During testing I found a bug which was causing the excerpt paragraph scrollbar to not return to 'top' position once the user had clicked the reset button. The bug was causing a negative user experience because once the user clicked the reset button, they then had to manually scroll to the top of the excerpt paragraph (in the event that during their previous test they had typed a large enough amount to cause the scrollbar to scroll down).
+
+In order to fix the bug, I added additional code to the resetTest function which would trigger the scrollbar to return to the top once the test was reset.
+
+*Below - screenshot of test taken after clicking reset button, which shows the typingText element scrollbar has not returned to 'top' position.*
+
+![Issue6Screenshot](./assets/images/testing/issue6-1.JPG)
+
+*Below - code added to resetTest function to fix the bug.*
+
+![Issue6Screenshot](./assets/images/testing/issue6-2.JPG)
 
 
 ### **Javascript Linter Tool**
