@@ -540,6 +540,22 @@ All other text content was written by myself.
 - [Stack Overflow](https://stackoverflow.com/)
 
 ### **Image Credits**
+
+*Image Usage - Site Favicon*
+<br>
+*Favicon generated using the following graphics from Twitter Twemoji:*
+<br>
+*Graphics Title: 1f4da.svg*
+<br>
+*Graphics Author: [Copyright 2020 Twitter, Inc and other contributors](https://github.com/twitter/twemoji)*
+<br>
+*Graphics Source: [Twemoji Github](https://github.com/twitter/twemoji/blob/master/assets/svg/1f4da.svg)*
+<br>
+*Graphics License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
+<br>
+![ThumbnailFavicon](./assets/images/thumbnails/favicon-thumbnail.png)
+<br><br>
+
 *Image Usage - Site Logo*
 <br>
 *Logo created using Canva tools*
