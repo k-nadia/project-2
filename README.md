@@ -480,13 +480,14 @@ Clone this project using the following steps:
 
 - [![Diffchecker](https://img.shields.io/badge/Diffchecker-grey?logo=diffchecker&logoColor=white)](https://www.diffchecker.com/text-compare/) - Diffchecker is a text comparison tool used to highlight the differences between two blocks of text, facilitating comparison and analysis. Update my code against old code for validation.
 
+- [![ESLint](https://img.shields.io/badge/ESLint-grey?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/)
+ESLint is a Javascript linter tool used to identify and fix problems within Javascript code.
+
 - [![W3C CSS Validator](https://img.shields.io/badge/W3C_CSS_Validator-grey?logo=css3&logoColor=white)](https://jigsaw.w3.org/css-validator/) - The W3C CSS Validator is a tool used to check the validity and syntax of CSS code, ensuring compliance with web standards set by the World Wide Web Consortium (W3C). Import my CSS for validation.
 
 - [![W3C Markup Validator](https://img.shields.io/badge/W3C_Markup_Validator-grey?logo=html5&logoColor=white)](https://validator.w3.org/#validate_by_input) - The W3C Markup Validator is a tool used to check the validity and syntax of HTML code, ensuring compliance with web standards set by the World Wide Web Consortium (W3C). Import my html for validation.
 
 - [![Lighthouse](https://img.shields.io/badge/Lighthouse-grey?logo=google-chrome&logoColor=red)](https://developer.chrome.com/docs/lighthouse) - An open-source tool used for auditing web page quality, including performance, accessibility, SEO, and cross-browser testing. Check for validation.
-
-- [![Optimole](https://img.shields.io/badge/Optimole-grey?)](https://optimole.com/image-compressor/) - Optimole is an online image optimizer tool which reduces file size without losing image quality. This tool was used to optimize all images within the project for web.
 
 - ![Canva](https://img.shields.io/badge/Canva-grey.svg?style=for-the-badge&logo=Canva&logoColor=white) - A graphic design platform that provides online design and visual communication tools.
 
