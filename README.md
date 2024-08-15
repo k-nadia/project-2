@@ -187,7 +187,7 @@ For instance, if a user types 100 total keystrokes and a total of 80 characters 
 
 - Total Words Typed - This result also follows the typing speed convention of counting words as any 5 characters. Therefore is a user types 250 characters in total (correct and incorrect), then their total words typed result would be 50.
 
-Below - screenshot of Type Library completed typing test, showing user results.
+*Below - screenshot of Type Library completed typing test, showing user results.*
 
 ![TypingTestResults](assets/images/features/test-results.JPG)
 
@@ -279,17 +279,17 @@ When developing the loadRandomExcerpt function, I noticed that upon running the 
 
 I realised that the error was likely caused because I was previewing the site on a temporary host rather than the fully deployed site and that this may cause the preview difficulty because the code was located in a separate file. In order to rectify this, I temporarily moved the 'excerpt' variable code inside of the script.js file. This fixed the issue and the console logged the correct content - a random text parapgrah selected from the excerpts variable.
 
-Below - console error message.
+*Below - console error message.*
 
 ![Issue1Screenshot](./assets/images/testing/issue1-1.png)
 <br>
 
-Below - excerpts variable code, moved temporarily into script.js file.
+*Below - excerpts variable code, moved temporarily into script.js file.*
 
 ![Issue1Screenshot](./assets/images/testing/issue1-2.png)
 <br>
 
-Below - console running correctly with expected outcome, once issue was resolved.
+*Below - console running correctly with expected outcome, once issue was resolved.*
 
 ![Issue1Screenshot](./assets/images/testing/issue1-3.png)
 
@@ -297,7 +297,7 @@ Below - console running correctly with expected outcome, once issue was resolved
 
 After amending the loadRandomExcerpt code to trigger a paragraph from the excerpts variable to be displayed on the site (rather than just the console.log) the expected result was not produced and the excerpt text failed to appear on the browser. I determined error must likely be caused by an issue with retrieving elements from the "typing-text" class, because I had used document.getElementsByClass("typing-text") to fetch the correct elements from the DOM. Upon further Googling and investigation, I found a query on Stack Overflow which related to a user having similar problems when using '.getElementByClassName()'. Answers to the query suggested .getElementsByClassName() method returns a live HTML collection of elements, whereas .querySelector() returns a single static NodeList object. As my aim was to retrieve a single element from an array (instead of a collection) of elements, it made sense that the .getElementsByClassName() would not be producing the desired result. Upon replacing .getElementsByClassName() with .querySelector(), the code worked correctly without issue.
 
-Below - original code that was not functioning correctly.
+*Below - original code that was not functioning correctly.*
 
 ![Issue2Screenshot](./assets/images/testing/issue2.png)
 
@@ -305,15 +305,15 @@ Below - original code that was not functioning correctly.
 
 Once I tested my countdown timer I found that the timer countdown was resetting every time a key was pressed on the keyboard, causing the typing text timer countdown to continuously reset itself as the user typed. I fixed this by adding the 'once' option to the code and setting it to 'true'. This ensured that the event listener would only be triggered by the first key stroke from the user and not by subsequent key strokes.
 
-Below - browser screenshot taken when errors occurred.
+*Below - browser screenshot taken when errors occurred.*
 
 ![Issue3Screenshot](./assets/images/testing/issue3-1.png)
 
-Below - code not functioning correctly.
+*Below - code not functioning correctly.*
 
 ![Issue3Screenshot](./assets/images/testing/issue3-2.png)
 
-Below - amended code which produced correct output.
+*Below - amended code which produced correct output.*
 
 ![Issue3Screenshot](./assets/images/testing/issue3-3.png)
 
@@ -321,11 +321,11 @@ Below - amended code which produced correct output.
 
 During the site development I can across a bug which was causing the input form to fail to display across the whole width of the content box, as was the expected outcome. I determined that this was being caused by a mismatched element type across html, css and javascript. The "typing-input" element was declared as a class in HTML and CSS, however in Javascript it was an id. Once I amended the html and css code to match the id type of "typing-input", the issue was resolved.
 
-Below - incorrect display which alerted me to locate and fix the bug.
+*Below - incorrect display which alerted me to locate and fix the bug.*
 
 ![Issue4Screenshot](./assets/images/testing/issue4-1.png)
 
-Below - display after bug had been fixed.
+*Below - display after bug had been fixed.*
 
 ![Issue4Screenshot](./assets/images/testing/issue4-2.png)
 
@@ -334,11 +334,11 @@ Below - display after bug had been fixed.
 While testing my site, I discovered that once the user completed the typing text, pressed the 'Try Again' button and proceeded to start typing again, the timer failed to start the countdown. After lots of investigating I found that I had to remove and then subsequently add the 'keydown' event listener which triggers startKeyDown function. After this functionality was added, it caused the startKeyDown function to fully reset properly and return to its original function state which in turn caused the timer problem to disappear.
 
 
-Below - startOnKeyDown function code.
+*Below - startOnKeyDown function code.*
 
 ![Issue4Screenshot](./assets/images/testing/issue5-1.png)
 
-Below - event listener actions added to fix the bug.
+*Below - event listener actions added to fix the bug.*
 
 ![Issue4Screenshot](./assets/images/testing/issue5-2.png)
 
