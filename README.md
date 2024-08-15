@@ -223,30 +223,31 @@ Additional features I would like to implement to this project would be:
 | Content box                               | Scroll mouse while cursor is over the contents box | Text content scrolls to display the complete paragraph | Pass |
 | Content box                               | Type letter in input box (that matches excerpt character and position) | Letter turns green (correct) | Pass |
 | Content box                               | Type letter in input box (that does not match excerpt character and position) | Letter turns red (incorrect) | Pass |
-| Content box                               | Click 'Try Again Button'                       | Excerpt font color returns to original black color | Pass |
-| Content box                               | Click 'Try Again Button'                       | The randomly selected paragraph is replaced with a different randomly selected paragraph from the 'excerpts' array | Pass |
+| Content box                               | Click 'Try Again' Button                      | Excerpt font color returns to original black color | Pass |
+| Content box                               | Click 'Try Again' Button                      | The randomly selected paragraph is replaced with a different randomly selected paragraph from the 'excerpts' array | Pass |
 | Content scrollbar                         | Scroll up or down                       | Typing text paragraph moves up or down according to scroll direction  | Pass   |
 | Content scrollbar                         | Type the last word visible in the typing text paragraph                       | Scroll bar automatically moves the text upwards so the next words to be typed are visible to user | Pass   |
+| Content scrollbar                         | Click 'Try Again' button                       | Scroll bar automatically moves back to top of text | Pass   |
 | Countdown timer                           | Load web page                                  | Static timer displays 01:00                                | Pass |
 | Typing text cursor                        | Load web page                                  | Blinking cursor is displayed on left hand side of the first character within the typing text paragraph                                | Pass |
 | Typing text cursor                        | Type in input box                                  | For each character the user types, the blinking cursor moves right one character to correspond with user's typing position                               | Pass |
 | Countdown timer                           | Press any key while cursor is activated within the input box | Timer begins to countdown from 01:00 to 00:00 in one second increments| Pass |
 | Countdown timer                           | N/A                                            | Countdown stops once 00:00 is reached              | Pass   |
-| Countdown timer                           | Click 'Try Again Button'                       | Countdown resets to 01:00                          | Pass   |
+| Countdown timer                           | Click 'Try Again' Button                        | Countdown resets to 01:00                          | Pass   |
 | Text input box                            | Load web page                                  | Placeholder text is displayed within text input box| Pass |
 | Text input box                            | Click on input box                             | Placeholder text disappears and blinking cursor appears| Pass |
 | Text input box                            | Type in input box                              | All text user types is displayed within text input box| Pass |
 | Text input box                            | Press any keys while cursor is activated within the input box  | All typed text appears within the input box   | Pass   |
-| Text input box                            | Click 'Try Again Button'                       | All typed text within the input box is cleared and the placeholder text reappears    | Pass   |
+| Text input box                            | Click 'Try Again' Button                        | All typed text within the input box is cleared and the placeholder text reappears    | Pass   |
 | Text input box                            | Input box loses focus (empty)                  | Placeholder text reappears                              | Pass |
-| Try Again Button                          | Click 'Try Again Button'                       | Triggers the following actions: load new excerpt paragraph, reset timer to 01:00, clear text input box     | Pass   |
+| Try Again Button                          | Click 'Try Again' Button                       | Triggers the following actions: load new excerpt paragraph, reset timer to 01:00, clear text input box     | Pass   |
 | Results Scores                         | Load web page                      | All results (WPM, accuracy, errors, total words typed) display zero values   | Pass   |
 | Results Scores                      | Countdown timer reaches 00:00                       | All results (WPM, accuracy, errors, total words typed) display results scores based on the users typing performance during the past minute   | Pass   |
 | Results Scores (WPM)                        | Countdown timer reaches 00:00                       | Displays the user's word per minute typing speed (based on correctly typed words only)   | Pass   |
 | Results Scores (Accuracy)                     | Countdown timer reaches 00:00                       | Displays the user's typing accuracy % | Pass   |
 | Results Scores (Errors)                        | Countdown timer reaches 00:00                       | Displays the user's total amount of typing errors  | Pass   |
 | Results Scores (Total Words Typed)                        | Countdown timer reaches 00:00                       | Displays the user's total amount of words typed within time limit | Pass   |
-| Results                         | Click 'Try Again Button'                       | All results (WPM, accuracy, errors, total words typed) reset to zero values   | Pass   |
+| Results                         | Click 'Try Again' Button                        | All results (WPM, accuracy, errors, total words typed) reset to zero values   | Pass   |
 
 <br>
 The site was checked and is working seamlessly and without errors or problems in multiple browsers: Chrome, Firefox, Microsoft Edge IE and Safari.
