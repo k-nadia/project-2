@@ -191,7 +191,7 @@ The text input box was created using the 'textarea' html to ensure a working inp
 
 Once the user has completed the typing test and the timer has reached 00:00, an alert appears on screen informing the user of the novel title and author relating to the excerpt they have just written. This feature was a small but important addition to the project as it aligns with the purpose of the project to introduce users to classic literature as well as helping them to improve their typing skills.
 
-Once the user clicks 'x' to close the alert, the results calculation function is then triggered.
+When the user clicks 'x' to close the alert, the results calculation function is then triggered.
 
 ![BookTitleAlertPopUp](assets/images/features/book-alert.png)
 
