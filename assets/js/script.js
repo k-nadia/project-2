@@ -71,12 +71,11 @@ function showResults() {
 function checkScroll() {
     const typingTextElement = document.querySelector(".typing-text");
     const activeSpan = typingTextElement.querySelector('span.active');
-    const lineHeight = parseFloat(getComputedStyle(typingTextElement).lineHeight) || activeSpanRect.height;
-
 
     if (activeSpan) {
         const containerRect = typingTextElement.getBoundingClientRect();
         const activeSpanRect = activeSpan.getBoundingClientRect();
+        const lineHeight = parseFloat(getComputedStyle(typingTextElement).lineHeight) || activeSpanRect.height;
 
         if (activeSpanRect.bottom > containerRect.bottom) {
             typingTextElement.scrollTop += activeSpanRect.bottom - containerRect.bottom;
