@@ -77,8 +77,10 @@ function checkScroll() {
         const activeSpanRect = activeSpan.getBoundingClientRect();
         const lineHeight = parseFloat(getComputedStyle(typingTextElement).lineHeight) || activeSpanRect.height;
 
-        if (activeSpanRect.bottom > containerRect.bottom) {
-            typingTextElement.scrollTop += activeSpanRect.bottom - containerRect.bottom;
+        if (activeSpanRect.bottom > containerRect.bottom - lineHeight) {
+            // scroll so that the active span leaves one line of text below it
+            const scrollAmount = activeSpanRect.bottom - (containerRect.bottom - lineHeight);
+            typingTextElement.scrollTop += scrollAmount;
         }
     }
 }
