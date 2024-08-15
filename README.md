@@ -166,6 +166,31 @@ Once the user clicks 'x' to close the alert, the results calculation function is
 
 ![BookTitleAlertPopUp](assets/images/features/book-alert.png)
 
+### **Typing Test Results**
+
+After the user closes the book title alert, the test results are displayed below the 'textarea' element. 
+
+Breakdown of results:
+
+- WPM - 'Words per minute' are calculated based on net WPM which is the most widely used method for calculating typing speed.
+ Typing speed calculation consider 'words' to be any 5 characters and net WPM accounts for the number of correct words typed in a minute. When applied to our typing text for example: if a user types 200 correct characters in one minute, this figure is divided by 5 to get a result of 40 WPM.
+
+ The formula below from [Speed Typing Online](https://www.speedtypingonline.com/) illustrates the calculation used for detertmining net WPM typing speed.
+<br>
+![NetWPMCalculationFormula](assets/images/features/net-wpm-calculation-formula.png)
+
+- Accuracy - The user's accuracy percentage score is calculated by using the following formula: (total correct characters typed) ÷ (total keystrokes) × 100.
+
+For instance, if a user types 100 total keystrokes and a total of 80 characters are correct, their accuracy result would be 80%.
+
+- Errors - The error scores equates to the user's total amount of incorrect characters typed. 
+
+- Total Words Typed - This result also follows the typing speed convention of counting words as any 5 characters. Therefore is a user types 250 characters in total (correct and incorrect), then their total words typed result would be 50.
+
+Below - screenshot of Type Library completed typing test, showing user results.
+
+![TypingTestResults](assets/images/features/test-results.JPG)
+
 ### **Features to Implement in the Future**
 
 Additional features I would like to implement to this project would be:

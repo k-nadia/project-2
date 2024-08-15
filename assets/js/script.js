@@ -52,7 +52,7 @@ function loadRandomExcerpt() {
 
 function showResults() {
     const totalWordsTyped = typingInput.value.trim().split(/\s+/).filter(word => word).length;
-    const wpm = correctChars / 5 / 1; // Assuming 1-minute timer
+    const wpm = correctChars / 5 / 1; // 
     const accuracy = (correctChars / totalKeystrokes) * 100 || 0;
 
     wpmDisplay.innerText = wpm.toFixed(0);
@@ -60,7 +60,7 @@ function showResults() {
     errorsDisplay.innerText = errors;
     totalWordsDisplay.innerText = totalWordsTyped;
 
-    // Show alert with the book title and author
+    // show alert with the book title and author
     if (currentExcerpt) {
         alert(`You have been typing an excerpt from...\n 
         "${currentExcerpt.title}" by ${currentExcerpt.author}`);
