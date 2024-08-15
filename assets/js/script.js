@@ -177,6 +177,10 @@ function resetTest() {
     typingInput.placeholder = 'Start typing here...';
     loadRandomExcerpt();
 
+    // scroll back to top of typingText 
+    const typingTextElement = document.querySelector(".typing-text");
+    typingTextElement.scrollTop = 0; 
+
     // reset timer & interval
     clearInterval(timerInterval);
     timerDisplay.textContent = "01:00";
