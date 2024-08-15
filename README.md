@@ -158,6 +158,14 @@ As a developer:
 
 ## **FEATURES**
 
+### **Logo**
+
+The logo for "Type Library" perfectly encapsulates the essence of the online typing test. The image of an open book with a quill resting on a page instantly evokes a sense of nostalgia and is designed to tie together the two elements of Type Library: typing and literature. The book symbolizes the classic literary excerpts users will be typing, while the quill, traditionally used for writing, represents the act of typing. This combination seamlessly blends the past and present, show-casing the link between traditional reading and modern-day typing. The logo is not only visually appealing but also strategically designed to enhance user experience by creating a sense of familiarity and excitement for the literary journey that awaits. 
+
+The simple, iconic imagery used in the logo is easily recognisable and understandable across different cultures and languages. The clean lines and contrasting colors ensure that the logo is legible even at smaller sizes, making it suitable for use on various platforms. This visual clarity contributes to a positive user experience by creating a welcoming and engaging atmosphere. 
+
+![LogoScreenshot](assets/images/features/logo-screenshot.png)
+
 ### **Book Title & Author Alert**
 
 Once the user has completed the typing test and the timer has reached 00:00, an alert appears on screen informing the user of the novel title and author relating to the excerpt they have just written. This feature was a small but important addition to the project as it aligns with the purpose of the project to introduce users to classic literature as well as helping them to improve their typing skills.
