@@ -175,9 +175,13 @@ The main typing test area features the following elements:
 
 The countdown timer features a timer icon (from [Favicon.io](https://favicon.io/)) and a one minute countdown timer. Once the begins typing in the text area box, the timer will start to countdown from 01:00 in one second increments until it reaches 00:00 and stops, signalling the end of the typing text. If the user clicks the 'Try Again' reset button, the countdown timer will reset back to 01:00.
 
-The typing text content was designed to echo Type Library's literary theme and have an aesthetic similar to the yellowing pages of an old classic book. As the user types, a blinking cursor assists them to keep track of their position and the text letters turn either green or red depending on whether the user's input text matches that of the typing text. There are 20 different novel excerpts which are able to be randomly selected for the user to type, the full list of novels can be found [Here](#content-sources).
+The typing text content was designed to echo Type Library's literary theme and have an aesthetic similar to the yellowing pages of an old classic book. As the user types, a blinking cursor assists them to keep track of their position and the text letters turn either green or red depending on whether the user's input text matches that of the typing text. There are 20 different novel excerpts which are able to be randomly selected for the user to type, the full list of novels can be found [here](#content-sources).
 
 The selection of novel excerpts were all carefully chosen from the classic literature genre and selected due to their vivid descriptive style prose which is much more user-friendly to type than a long dialogue conversation between characters which contain shorter sentances and lots of additional punctuation marks that may disrupt the users typing flow.
+
+The typing text utilises a scrollbar which reveals more of the paragraph text to the user, when they reach the second to last line of the text. Once the user presses the reset button, the scrollbar returns to it's default 'up' position.
+
+The text input box was created using the 'textarea' html to ensure a working input box with multiple lines for text. I purposely only wanted to display two lines of the user's typed text, as opposed to the entirety of it, to encourage users to focus on the novel excerpt paragraph instead of being distracted by looking at the words they had typed. Focus on the content to be typed is essential to the touch-typing skill, which aims to connect the letters seen on screen with muscle memory to instruct the fingers where each letter is located on the keyboard. 
 
 
 
