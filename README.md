@@ -226,7 +226,7 @@ Additional features I would like to implement to this project would be:
 | Content box                               | Click 'Try Again' Button                      | Excerpt font color returns to original black color | Pass |
 | Content box                               | Click 'Try Again' Button                      | The randomly selected paragraph is replaced with a different randomly selected paragraph from the 'excerpts' array | Pass |
 | Content scrollbar                         | Scroll up or down                       | Typing text paragraph moves up or down according to scroll direction  | Pass   |
-| Content scrollbar                         | Type the last word visible in the typing text paragraph                       | Scroll bar automatically moves the text upwards so the next words to be typed are visible to user | Pass   |
+| Content scrollbar                         | Type to end of the second to last line of text visible in the typing text paragraph                       | Scroll bar automatically moves the text upwards so the next line to be typed are visible to user | Pass   |
 | Content scrollbar                         | Click 'Try Again' button                       | Scroll bar automatically moves back to top of text | Pass   |
 | Countdown timer                           | Load web page                                  | Static timer displays 01:00                                | Pass |
 | Typing text cursor                        | Load web page                                  | Blinking cursor is displayed on left hand side of the first character within the typing text paragraph                                | Pass |
